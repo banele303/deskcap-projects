@@ -38,19 +38,13 @@ export default function Header({ currentPage, setCurrentPage }) {
         {/* Logo */}
         <button
           onClick={() => handleNavClick('home')}
-          className="flex items-center gap-3 group text-left cursor-pointer border-none bg-transparent"
+          className="flex items-center group cursor-pointer border-none bg-transparent p-0"
         >
-          <div className="relative w-11 h-11 rounded-xl border border-[#E8A04E]/30 bg-[#1F1611] flex items-center justify-center shadow-lg shadow-[#B8651B]/20 group-hover:scale-105 transition-all overflow-hidden">
-            <img src="/images/logo.jpg" alt="Deskab Projects Logo" className="w-full h-full object-cover" />
-          </div>
-          <div>
-            <div className={`font-display font-bold text-lg leading-none transition-colors ${scrolled ? 'text-[#1F1611]' : 'text-white'}`} id="logo-text">
-              Deskab Projects
-            </div>
-            <div className={`text-[10px] tracking-[0.2em] uppercase mt-1 transition-colors ${scrolled ? 'text-[#7A6B5E]' : 'text-white/70'}`}>
-              Centurion · Renovations & Construction
-            </div>
-          </div>
+          <img
+            src="/images/logo.jpg"
+            alt="Deskab Projects"
+            className="h-12 w-auto object-contain rounded-lg group-hover:scale-105 transition-transform"
+          />
         </button>
 
         {/* Desktop Nav Links */}
