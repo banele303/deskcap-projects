@@ -478,24 +478,43 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
             </button>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-8">
             {featuredBlog.map((post) => (
-              <div key={post.id} className="card card-hover cursor-pointer group overflow-hidden" onClick={() => setCurrentPage('blog')}>
-                <div className="relative aspect-[16/10] img-zoom overflow-hidden bg-[#1F1611]">
-                  <img src={post.image} alt={post.title} loading="lazy" className="w-full h-full object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1F1611]/50 to-transparent"></div>
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 rounded-full bg-white/90 text-[10px] tracking-wide uppercase font-semibold text-[#B8651B]">{post.category}</span>
+              <div
+                key={post.id}
+                className="card card-hover cursor-pointer group overflow-hidden flex flex-col justify-between border border-[#E8DDD0] hover:border-[#B8651B]/40 bg-white shadow-md hover:shadow-2xl transition-all duration-300 rounded-2xl"
+                onClick={() => setCurrentPage('blog')}
+              >
+                <div>
+                  <div className="relative aspect-[16/10] img-zoom overflow-hidden bg-[#1F1611]">
+                    <img src={post.image} alt={post.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#1F1611]/70 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                    <div className="absolute top-4 left-4 flex gap-2">
+                      <span className="px-3.5 py-1.5 rounded-full bg-white/95 backdrop-blur-md text-[11px] tracking-wide uppercase font-bold text-[#B8651B] shadow-sm">
+                        {post.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-7">
+                    <div className="flex items-center justify-between text-xs text-[#7A6B5E] mb-3">
+                      <span className="font-medium text-[#B8651B]">{post.authorRole || 'Deskab Projects'}</span>
+                      <span>{post.readTime}</span>
+                    </div>
+                    <h3 className="font-display text-xl font-bold mb-3 text-[#1F1611] group-hover:text-[#B8651B] transition-colors leading-snug">
+                      {post.title}
+                    </h3>
+                    <p className="text-sm text-[#7A6B5E] leading-relaxed line-clamp-3">
+                      {post.blurb}
+                    </p>
                   </div>
                 </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-3 text-xs text-[#7A6B5E] mb-3">
-                    <span>{post.date}</span>
-                    <span>·</span>
-                    <span>{post.readTime}</span>
-                  </div>
-                  <h3 className="font-display text-lg font-semibold mb-3 text-[#1F1611] group-hover:text-[#B8651B] transition-colors leading-snug">{post.title}</h3>
-                  <p className="text-sm text-[#7A6B5E] leading-relaxed">{post.blurb.slice(0, 100)}…</p>
+
+                <div className="px-7 pb-7 pt-2 flex items-center justify-between border-t border-[#FAF6F0] text-sm font-semibold text-[#B8651B] group-hover:text-[#8B4A14]">
+                  <span className="flex items-center gap-2">
+                    Read Full Article
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform" />
+                  </span>
+                  <span className="text-xs text-[#7A6B5E] font-normal">{post.date}</span>
                 </div>
               </div>
             ))}

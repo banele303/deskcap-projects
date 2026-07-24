@@ -34,7 +34,7 @@ export default function Header({ currentPage, setCurrentPage }) {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'scrolled' : ''}`}>
-      <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20">
+      <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20 lg:h-24 transition-all">
         {/* Logo */}
         <button
           onClick={() => handleNavClick('home')}
@@ -43,7 +43,7 @@ export default function Header({ currentPage, setCurrentPage }) {
           <img
             src="/images/logo.jpg"
             alt="Deskab Projects"
-            className="h-12 w-auto object-contain rounded-lg group-hover:scale-105 transition-transform"
+            className="h-12 sm:h-14 md:h-16 lg:h-20 max-h-20 w-auto object-contain rounded-xl group-hover:scale-105 transition-all duration-300 drop-shadow-md"
           />
         </button>
 
