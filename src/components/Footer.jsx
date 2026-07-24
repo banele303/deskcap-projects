@@ -27,9 +27,7 @@ export default function Footer({ setCurrentPage, showToast }) {
           {/* Brand */}
           <div className="lg:col-span-4">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#B8651B] to-[#8B4A14] flex items-center justify-center text-white font-display font-bold text-lg overflow-hidden">
-                <img src="/images/logo.jpg" alt="Deskab Projects" className="w-full h-full object-cover" />
-              </div>
+              <img src="/images/logo.jpg" alt="Deskab Projects" className="h-12 w-auto object-contain rounded-xl shadow-md" />
               <div>
                 <div className="font-display font-bold text-lg leading-none">Deskab Projects</div>
                 <div className="text-[10px] tracking-[0.2em] uppercase text-white/40 mt-1">Renovations & Construction</div>
