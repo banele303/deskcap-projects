@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, ArrowRight, Menu, X, ChevronDown, Mail } from 'lucide-react';
+import { Mail, ArrowRight, Menu, X, ChevronDown } from 'lucide-react';
 import { services } from '../data/servicesData';
 
 export default function Header({ currentPage, setCurrentPage }) {
@@ -32,8 +32,17 @@ export default function Header({ currentPage, setCurrentPage }) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // The hero is dark only at the top of the Home page
+  const isDarkHero = currentPage === 'home' && !scrolled;
+
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'scrolled' : ''}`}>
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isDarkHero
+          ? 'bg-transparent'
+          : 'bg-[#FAF6F0]/95 backdrop-blur-md border-b border-[#E8DDD0] shadow-sm'
+      }`}
+    >
       <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20 lg:h-24 transition-all">
         {/* Logo */}
         <button
@@ -51,13 +60,18 @@ export default function Header({ currentPage, setCurrentPage }) {
         <div className="hidden lg:flex items-center gap-7">
           {navItems.map((item) => (
             item.hasDropdown ? (
-              <div key={item.id} className="relative" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
+              <div
+                key={item.id}
+                className="relative"
+                onMouseEnter={() => setServicesOpen(true)}
+                onMouseLeave={() => setServicesOpen(false)}
+              >
                 <button
                   onClick={() => handleNavClick(item.id)}
                   className={`nav-link text-sm font-medium transition-colors bg-transparent border-none cursor-pointer flex items-center gap-1 ${
                     currentPage === item.id || currentPage.startsWith('service-')
-                      ? 'text-[#E8A04E] font-semibold'
-                      : scrolled ? 'text-[#1F1611] hover:text-[#B8651B]' : 'text-white hover:text-[#E8A04E]'
+                      ? isDarkHero ? 'text-[#E8A04E] font-bold' : 'text-[#B8651B] font-bold'
+                      : isDarkHero ? 'text-white hover:text-[#E8A04E]' : 'text-[#1F1611] hover:text-[#B8651B]'
                   }`}
                 >
                   {item.label}
@@ -93,8 +107,8 @@ export default function Header({ currentPage, setCurrentPage }) {
                 onClick={() => handleNavClick(item.id)}
                 className={`nav-link text-sm font-medium transition-colors bg-transparent border-none cursor-pointer ${
                   currentPage === item.id
-                    ? 'text-[#E8A04E] font-semibold'
-                    : scrolled ? 'text-[#1F1611] hover:text-[#B8651B]' : 'text-white hover:text-[#E8A04E]'
+                    ? isDarkHero ? 'text-[#E8A04E] font-bold' : 'text-[#B8651B] font-bold'
+                    : isDarkHero ? 'text-white hover:text-[#E8A04E]' : 'text-[#1F1611] hover:text-[#B8651B]'
                 }`}
               >
                 {item.label}
@@ -103,12 +117,12 @@ export default function Header({ currentPage, setCurrentPage }) {
           ))}
         </div>
 
-        {/* Desktop CTA & Phone */}
+        {/* Desktop CTA & Email */}
         <div className="hidden lg:flex items-center gap-4">
           <a
             href="mailto:deskabrenovations01@gmail.com"
             className={`text-sm font-medium transition-colors flex items-center gap-2 ${
-              scrolled ? 'text-[#1F1611] hover:text-[#B8651B]' : 'text-white hover:text-[#E8A04E]'
+              isDarkHero ? 'text-white hover:text-[#E8A04E]' : 'text-[#1F1611] hover:text-[#B8651B]'
             }`}
           >
             <Mail className="w-4 h-4" />
@@ -117,7 +131,7 @@ export default function Header({ currentPage, setCurrentPage }) {
           <button
             onClick={() => handleNavClick('contact')}
             className="btn-primary header-cta text-sm"
-            style={scrolled ? {} : { background: 'rgba(255,255,255,0.1)', borderColor: 'rgba(255,255,255,0.25)', backdropFilter: 'blur(8px)' }}
+            style={isDarkHero ? { background: 'rgba(255,255,255,0.1)', borderColor: 'rgba(255,255,255,0.25)', backdropFilter: 'blur(8px)' } : {}}
           >
             Free Quote
             <ArrowRight className="w-3.5 h-3.5" />
@@ -127,7 +141,9 @@ export default function Header({ currentPage, setCurrentPage }) {
         {/* Mobile menu button */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`lg:hidden p-2 rounded-lg transition-colors border-none bg-transparent cursor-pointer ${scrolled ? 'text-[#1F1611]' : 'text-white'}`}
+          className={`lg:hidden p-2 rounded-lg transition-colors border-none bg-transparent cursor-pointer ${
+            isDarkHero ? 'text-white' : 'text-[#1F1611]'
+          }`}
           aria-label="Toggle menu"
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
