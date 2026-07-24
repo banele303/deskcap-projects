@@ -64,25 +64,24 @@ export default function Header({ currentPage, setCurrentPage }) {
                   <ChevronDown className={`w-3.5 h-3.5 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
                 </button>
 
-                {/* Mega Dropdown */}
+                {/* Simple One-Line Services Dropdown */}
                 {servicesOpen && (
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[720px] bg-white rounded-2xl shadow-2xl border border-[#E8DDD0] p-6 grid grid-cols-2 gap-2 animate-in fade-in slide-in-from-top-2 duration-200 z-50">
-                    <div className="col-span-2 text-[10px] font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-2 pb-2 border-b border-[#E8DDD0]">
-                      All 10 Services
-                    </div>
-                    {services.map((s) => (
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-[#E8DDD0] py-2 animate-in fade-in slide-in-from-top-2 duration-150 z-50">
+                    <button
+                      onClick={() => handleNavClick('services')}
+                      className="w-full text-left px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#B8651B] bg-[#FAF6F0] hover:bg-[#F2E8DA] border-b border-[#E8DDD0] flex items-center justify-between cursor-pointer border-none"
+                    >
+                      <span>All 10 Services</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                    {services.map((s, idx) => (
                       <button
                         key={s.id}
                         onClick={() => handleNavClick(s.slug)}
-                        className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-[#FAF6F0] transition-colors text-left group/item border-none bg-transparent cursor-pointer"
+                        className="w-full text-left px-4 py-2 text-sm font-medium text-[#1F1611] hover:bg-[#FAF6F0] hover:text-[#B8651B] transition-colors border-none bg-transparent cursor-pointer flex items-center justify-between group/item"
                       >
-                        <div className="w-8 h-8 rounded-lg bg-[#B8651B]/10 flex items-center justify-center flex-shrink-0">
-                          <span className="text-[#B8651B] text-xs font-bold">{s.title[0]}</span>
-                        </div>
-                        <div>
-                          <div className="text-sm font-semibold text-[#1F1611] group-hover/item:text-[#B8651B] transition-colors leading-none mb-0.5">{s.title}</div>
-                          <div className="text-[11px] text-[#7A6B5E] leading-snug">{s.shortDesc.slice(0, 55)}…</div>
-                        </div>
+                        <span>{s.title}</span>
+                        <span className="text-[10px] text-[#7A6B5E] group-hover/item:text-[#B8651B]">0{idx + 1}</span>
                       </button>
                     ))}
                   </div>
