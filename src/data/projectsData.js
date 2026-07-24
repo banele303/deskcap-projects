@@ -42,7 +42,7 @@ export const projects = [
     serviceId: 'solar-installation',
     location: 'Midrand, Gauteng',
     year: '2024',
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/service_solar.jpg',
     blurb: '10kW hybrid solar system with 20kWh lithium battery storage for a large family home.',
     description: 'A Midrand homeowner was spending R8,500+ per month on electricity and needed relief from load shedding. We designed a 10kW Sunsynk hybrid system with 20kWh of lithium battery storage and 18 x 555W panels. The system now covers 95% of the home\'s daytime needs and runs all essentials through extended outages.',
     specs: [

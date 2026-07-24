@@ -22,7 +22,7 @@ export const blogPosts = [
     authorRole: 'Energy Team',
     date: 'June 2025',
     readTime: '8 min read',
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/service_solar.jpg',
     blurb: 'What size system do you actually need? What does it cost? And how long until you break even? We answer every question Centurion homeowners are asking.',
     excerpt: 'Load shedding has fundamentally changed how South African homeowners think about energy. In Centurion, a properly sized solar system is no longer a luxury — it\'s a household essential.',
     content: 'Load shedding has fundamentally changed how South African homeowners think about energy. In Centurion, where outages regularly exceed Stage 4, a properly sized solar system is no longer a luxury — it\'s a household essential. Here\'s everything you need to know.'

@@ -270,11 +270,11 @@ export const services = [
       { step: '03', title: 'Superstructure', desc: 'Brickwork, lintels, roof structure, and all wet trades completed in sequence.' },
       { step: '04', title: 'Finishes', desc: 'Plastering, screed, ceilings, tiling, painting — full turnkey finish if required.' }
     ],
-    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/service_building.jpg',
     gallery: [
+      '/images/service_building.jpg',
       'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80'
     ],
     timeframe: '2 weeks to 6 months depending on scope',
     icon: 'Building2'
@@ -301,7 +301,7 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Panels mounted, DC and AC cabling run, inverter and battery bank installed by certified techs.' },
       { step: '04', title: 'Commission & Monitor', desc: 'System tested under load, monitoring app configured, and full handover to you.' }
     ],
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/service_solar.jpg',
     gallery: [
       'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1548611716-30048123d881?auto=format&fit=crop&w=1200&q=80',
