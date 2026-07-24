@@ -64,7 +64,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
       {/* ─── HERO ─── */}
       <section className="relative min-h-screen hero-bg-container overflow-hidden grain-overlay flex items-center pt-28 pb-20">
         <img
-          src="/images/projects/st_project_2.jpg"
+          src="/images/hero_renovation.jpg"
           alt="Deskab Projects — Centurion Renovations"
           className="hero-bg-image"
         />
@@ -315,7 +315,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden aspect-[5/6] shadow-2xl">
-                <img src="/images/projects/st_project_101.jpg" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
+                <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1F1611]/80 to-transparent"></div>
               </div>
               <div className="absolute -bottom-8 -right-4 lg:-right-8 max-w-xs bg-[#FAF6F0] text-[#1F1611] p-6 rounded-xl shadow-2xl border border-[#E8DDD0]">

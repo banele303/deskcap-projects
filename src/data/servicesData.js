@@ -1,4 +1,4 @@
-// 10 Deskab Projects services with full detail for dedicated pages
+// 10 Deskab Projects services with realistic topic-matched imagery for dedicated pages
 export const services = [
   {
     id: 'painting',
@@ -14,7 +14,7 @@ export const services = [
       'Damp and waterproofing treatment coatings',
       'Epoxy floors and garage floor finishes',
       'Free colour consultation and test patches',
-      'Penguard, Plascon, Dulux and top-brand materials used'
+      'Plascon, Dulux, and top-brand materials used'
     ],
     process: [
       { step: '01', title: 'Site Assessment', desc: 'We inspect surfaces for cracks, damp, and peeling before recommending products.' },
@@ -22,8 +22,12 @@ export const services = [
       { step: '03', title: 'Application', desc: 'Two to three coats of premium paint applied by our skilled team for perfect coverage.' },
       { step: '04', title: 'Final Inspection', desc: 'We walk through with you and touch up anything that isn\'t perfect before we leave.' }
     ],
-    image: '/images/projects/st_project_2.jpg',
-    gallery: ['/images/projects/st_project_52.jpg', '/images/projects/st_project_57.jpg', '/images/projects/st_project_64.jpg'],
+    image: '/images/service_painting.jpg',
+    gallery: [
+      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '1–5 days depending on size',
     icon: 'Brush'
   },
@@ -49,8 +53,12 @@ export const services = [
       { step: '03', title: 'Precision Laying', desc: 'Every tile set to laser level with the correct adhesive for the application.' },
       { step: '04', title: 'Grouting & Sealing', desc: 'Professional grouting, edge trims, and sealing for longevity and easy maintenance.' }
     ],
-    image: '/images/projects/st_project_54.jpg',
-    gallery: ['/images/projects/st_project_60.jpg', '/images/projects/st_project_67.jpg', '/images/projects/st_project_70.jpg'],
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '2–7 days depending on area',
     icon: 'Grid3x3'
   },
@@ -76,8 +84,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Expert installation with precision cuts, expansion gaps, and proper acclimatisation.' },
       { step: '04', title: 'Sanding & Finishing', desc: 'Three-pass sanding and premium sealant or oil finish applied for a flawless result.' }
     ],
-    image: '/images/projects/st_project_6.jpg',
-    gallery: ['/images/projects/st_project_73.jpg', '/images/projects/st_project_76.jpg', '/images/projects/st_project_79.jpg'],
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1595878715977-2e8f8df18ea8?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '3–7 days depending on size',
     icon: 'Layers'
   },
@@ -103,8 +115,12 @@ export const services = [
       { step: '03', title: 'Boarding & Plastering', desc: 'Rhinoboard fitted, joints skimmed, and surface prepared for paint or texture.' },
       { step: '04', title: 'Cornices & Details', desc: 'Cornices fitted and finished, LED housings installed, ready for painting.' }
     ],
-    image: '/images/projects/st_project_82.jpg',
-    gallery: ['/images/projects/st_project_85.jpg', '/images/projects/st_project_87.jpg', '/images/projects/st_project_89.jpg'],
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '2–5 days per area',
     icon: 'Square'
   },
@@ -130,8 +146,12 @@ export const services = [
       { step: '03', title: 'Boarding', desc: 'Rhinoboard fixed, insulation inserted where required, joints taped and skimmed.' },
       { step: '04', title: 'Finishing', desc: 'Final skim coat applied and sanded smooth, ready for painting or tiling.' }
     ],
-    image: '/images/projects/st_project_91.jpg',
-    gallery: ['/images/projects/st_project_93.jpg', '/images/projects/st_project_95.jpg', '/images/projects/st_project_98.jpg'],
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '1–4 days per partition',
     icon: 'PanelLeft'
   },
@@ -157,8 +177,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Our carpenters install with precision — level, plumb, and perfectly finished.' },
       { step: '04', title: 'Handover', desc: 'We adjust, test, and demonstrate before signing off on a defect-free installation.' }
     ],
-    image: '/images/projects/st_project_101.jpg',
-    gallery: ['/images/projects/st_project_102.jpg', '/images/projects/st_project_105.jpg', '/images/projects/st_project_107.jpg'],
+    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '1–3 weeks from design approval',
     icon: 'Hammer'
   },
@@ -184,8 +208,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Registered plumbers carry out all work to SANS standards with quality materials.' },
       { step: '04', title: 'Pressure Test', desc: 'All new pipework is pressure tested before walls are closed up.' }
     ],
-    image: '/images/projects/st_project_109.jpg',
-    gallery: ['/images/projects/st_project_111.jpg', '/images/projects/st_project_114.jpg', '/images/projects/st_project_117.jpg'],
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: 'Emergency same-day; renovations 3–10 days',
     icon: 'Droplets'
   },
@@ -211,8 +239,12 @@ export const services = [
       { step: '03', title: 'Certified Installation', desc: 'Registered electricians carry out all work to SANS 10142 standards.' },
       { step: '04', title: 'COC Issued', desc: 'Certificate of Compliance issued on completion — every time, no exceptions.' }
     ],
-    image: '/images/projects/st_project_119.jpg',
-    gallery: ['/images/projects/st_project_121.jpg', '/images/projects/st_project_123.jpg', '/images/projects/st_project_113.jpg'],
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '1 day (repairs) to 2 weeks (full install)',
     icon: 'Zap'
   },
@@ -238,8 +270,12 @@ export const services = [
       { step: '03', title: 'Superstructure', desc: 'Brickwork, lintels, roof structure, and all wet trades completed in sequence.' },
       { step: '04', title: 'Finishes', desc: 'Plastering, screed, ceilings, tiling, painting — full turnkey finish if required.' }
     ],
-    image: '/images/projects/st_project_5.jpg',
-    gallery: ['/images/projects/st_project_47.jpg', '/images/projects/st_project_50.jpg', '/images/projects/st_project_51.jpg'],
+    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '2 weeks to 6 months depending on scope',
     icon: 'Building2'
   },
@@ -265,8 +301,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Panels mounted, DC and AC cabling run, inverter and battery bank installed by certified techs.' },
       { step: '04', title: 'Commission & Monitor', desc: 'System tested under load, monitoring app configured, and full handover to you.' }
     ],
-    image: '/images/projects/st_project_116.jpg',
-    gallery: ['/images/projects/st_project_97.jpg', '/images/projects/st_project_86.jpg', '/images/projects/st_project_75.jpg'],
+    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
+    gallery: [
+      'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1548611716-30048123d881?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80'
+    ],
     timeframe: '1–3 days for residential systems',
     icon: 'Sun'
   }

@@ -6,7 +6,7 @@ export const projects = [
     serviceId: 'building',
     location: 'Centurion, Gauteng',
     year: '2024',
-    image: '/images/projects/st_project_5.jpg',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Complete home renovation: extensions, drywalling, tiling, painting, and electrical.',
     description: 'A growing family in Olievenhoutbosch needed their home transformed — a new bedroom wing, updated bathrooms, full interior repaint, and a boundary wall. Deskab Projects managed every trade from foundations to final coat, delivering a truly turnkey result in under 10 weeks.',
     specs: [
@@ -24,7 +24,7 @@ export const projects = [
     serviceId: 'drywalling',
     location: 'Pretoria, Gauteng',
     year: '2024',
-    image: '/images/projects/st_project_91.jpg',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Open-plan office converted into private offices using steel stud partitions and acoustic ceilings.',
     description: 'A fast-growing tech company needed their open-plan office divided into 12 private offices and two meeting rooms without structural work. We designed and installed a complete steel stud drywall partition system with acoustic insulation and Rhinoboard bulkhead ceilings — completed over a weekend to avoid business disruption.',
     specs: [
@@ -42,7 +42,7 @@ export const projects = [
     serviceId: 'solar-installation',
     location: 'Midrand, Gauteng',
     year: '2024',
-    image: '/images/projects/st_project_116.jpg',
+    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
     blurb: '10kW hybrid solar system with 20kWh lithium battery storage for a large family home.',
     description: 'A Midrand homeowner was spending R8,500+ per month on electricity and needed relief from load shedding. We designed a 10kW Sunsynk hybrid system with 20kWh of lithium battery storage and 18 x 555W panels. The system now covers 95% of the home\'s daytime needs and runs all essentials through extended outages.',
     specs: [
@@ -60,7 +60,7 @@ export const projects = [
     serviceId: 'carpentry',
     location: 'Centurion, Gauteng',
     year: '2024',
-    image: '/images/projects/st_project_101.jpg',
+    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Custom kitchen cabinetry, island unit, and large-format porcelain tile floor.',
     description: 'A complete kitchen transformation — new custom cabinetry with Melamine wrapped carcasses and solid oak doors, a freestanding island with undermount sink, and 1200×600mm porcelain floor tiles laid in a staggered pattern. The result was a magazine-worthy kitchen in an estate home in Die Hoewes, Centurion.',
     specs: [
@@ -78,7 +78,7 @@ export const projects = [
     serviceId: 'wooden-floors',
     location: 'Waterkloof, Pretoria',
     year: '2024',
-    image: '/images/projects/st_project_6.jpg',
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Solid Saligna hardwood floors installed and finished in a heritage home.',
     description: 'A Waterkloof homeowner wanted the existing ceramic tiles removed and solid hardwood floors installed throughout the living areas. We stripped the existing tiles, levelled the screed, and installed 135mm solid Saligna boards with a three-pass sand and natural oil finish. The floors added enormous character and value to the home.',
     specs: [
@@ -96,7 +96,7 @@ export const projects = [
     serviceId: 'plumbing',
     location: 'Olievenhoutbosch, Centurion',
     year: '2023',
-    image: '/images/projects/st_project_109.jpg',
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Complete bathroom strip-out and refit with new plumbing, tiling, and vanity.',
     description: 'A dated bathroom in a local Olievenhoutbosch home was completely gutted and rebuilt. New waterproofing membrane, full tiling in a 600×300mm subway format, floating vanity, frameless shower, and all-new plumbing including a new solar geyser connection. Completed in 7 days with minimal disruption.',
     specs: [
@@ -114,7 +114,7 @@ export const projects = [
     serviceId: 'painting',
     location: 'Lyttelton, Centurion',
     year: '2023',
-    image: '/images/projects/st_project_2.jpg',
+    image: '/images/service_painting.jpg',
     blurb: 'Full exterior repaint with waterproofing treatment on a 1980s brick home.',
     description: 'A 1984-built face brick home in Lyttelton was showing severe damp and paint peeling. We applied a full waterproofing treatment system, re-plastered damaged areas, and finished with a premium elastomeric exterior paint. The result was a complete transformation that also resolved the damp issues permanently.',
     specs: [
@@ -132,7 +132,7 @@ export const projects = [
     serviceId: 'ceilings-cornices',
     location: 'Irene, Centurion',
     year: '2023',
-    image: '/images/projects/st_project_82.jpg',
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
     blurb: 'New Rhinoboard ceilings with LED bulkhead features and decorative cornice throughout.',
     description: 'A newly built Irene estate home was handed over without ceilings — the builder had gone insolvent. Deskab Projects stepped in and installed all Rhinoboard ceilings, LED bulkhead features in the lounge and main bedroom, and premium plaster cornice throughout. Finished and painted, ready for the family to move in within 12 days.',
     specs: [
@@ -150,7 +150,7 @@ export const projects = [
     serviceId: 'electrical',
     location: 'Garsfontein, Pretoria',
     year: '2023',
-    image: '/images/projects/st_project_119.jpg',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80',
     blurb: 'Full electrical upgrade, new DB board, LED downlights, and Certificate of Compliance for property transfer.',
     description: 'A Garsfontein homeowner needed a COC for property transfer but the existing installation had serious non-compliances. We replaced the DB board, rewired non-compliant circuits, installed LED downlights throughout, and issued a full COC within 3 days — saving the sale from falling through.',
     specs: [
@@ -168,7 +168,7 @@ export const projects = [
     serviceId: 'building',
     location: 'Highveld, Centurion',
     year: '2023',
-    image: '/images/projects/st_project_47.jpg',
+    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
     blurb: '40m boundary wall, double garage, and additional guest suite added to existing home.',
     description: 'A Centurion homeowner needed security improvements and additional accommodation. We managed council approval, poured strip foundations, built a 40m precast boundary wall, constructed a double garage with automated doors, and added a guest suite with en-suite bathroom. Entire project managed from plans to handover.',
     specs: [
