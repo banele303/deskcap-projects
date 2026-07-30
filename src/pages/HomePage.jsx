@@ -315,7 +315,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden aspect-[5/6] shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
+                <img src="/images/WhatsApp Image 2026-07-30 at 11.35.36 AM.jpeg" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1F1611]/80 to-transparent"></div>
               </div>
               <div className="absolute -bottom-8 -right-4 lg:-right-8 max-w-xs bg-[#FAF6F0] text-[#1F1611] p-6 rounded-xl shadow-2xl border border-[#E8DDD0]">

@@ -24,9 +24,9 @@ export const services = [
     ],
     image: '/images/service_painting.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM (1).jpeg'
     ],
     timeframe: '1–5 days depending on size',
     icon: 'Brush'
@@ -53,11 +53,11 @@ export const services = [
       { step: '03', title: 'Precision Laying', desc: 'Every tile set to laser level with the correct adhesive for the application.' },
       { step: '04', title: 'Grouting & Sealing', desc: 'Professional grouting, edge trims, and sealing for longevity and easy maintenance.' }
     ],
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM (1).jpeg'
     ],
     timeframe: '2–7 days depending on area',
     icon: 'Grid3x3'
@@ -84,11 +84,11 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Expert installation with precision cuts, expansion gaps, and proper acclimatisation.' },
       { step: '04', title: 'Sanding & Finishing', desc: 'Three-pass sanding and premium sealant or oil finish applied for a flawless result.' }
     ],
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1595878715977-2e8f8df18ea8?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (2).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM.jpeg'
     ],
     timeframe: '3–7 days depending on size',
     icon: 'Layers'
@@ -115,11 +115,11 @@ export const services = [
       { step: '03', title: 'Boarding & Plastering', desc: 'Rhinoboard fitted, joints skimmed, and surface prepared for paint or texture.' },
       { step: '04', title: 'Cornices & Details', desc: 'Cornices fitted and finished, LED housings installed, ready for painting.' }
     ],
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.24 AM.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.33 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.34 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.34 AM.jpeg'
     ],
     timeframe: '2–5 days per area',
     icon: 'Square'
@@ -146,11 +146,11 @@ export const services = [
       { step: '03', title: 'Boarding', desc: 'Rhinoboard fixed, insulation inserted where required, joints taped and skimmed.' },
       { step: '04', title: 'Finishing', desc: 'Final skim coat applied and sanded smooth, ready for painting or tiling.' }
     ],
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.35 AM (1).jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.35 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.36 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.36 AM.jpeg'
     ],
     timeframe: '1–4 days per partition',
     icon: 'PanelLeft'
@@ -177,11 +177,11 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Our carpenters install with precision — level, plumb, and perfectly finished.' },
       { step: '04', title: 'Handover', desc: 'We adjust, test, and demonstrate before signing off on a defect-free installation.' }
     ],
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/Screenshot 2026-07-30 062601.png',
     gallery: [
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80'
+      '/images/Screenshot 2026-07-30 062752.png',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.00 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.02 AM (1).jpeg'
     ],
     timeframe: '1–3 weeks from design approval',
     icon: 'Hammer'
@@ -208,11 +208,11 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Registered plumbers carry out all work to SANS standards with quality materials.' },
       { step: '04', title: 'Pressure Test', desc: 'All new pipework is pressure tested before walls are closed up.' }
     ],
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.02 AM.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.03 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.04 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.06 AM.jpeg'
     ],
     timeframe: 'Emergency same-day; renovations 3–10 days',
     icon: 'Droplets'
@@ -239,11 +239,11 @@ export const services = [
       { step: '03', title: 'Certified Installation', desc: 'Registered electricians carry out all work to SANS 10142 standards.' },
       { step: '04', title: 'COC Issued', desc: 'Certificate of Compliance issued on completion — every time, no exceptions.' }
     ],
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.07 AM.jpeg',
     gallery: [
-      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.10 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM.jpeg'
     ],
     timeframe: '1 day (repairs) to 2 weeks (full install)',
     icon: 'Zap'
@@ -273,8 +273,8 @@ export const services = [
     image: '/images/service_building.jpg',
     gallery: [
       '/images/service_building.jpg',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM.jpeg'
     ],
     timeframe: '2 weeks to 6 months depending on scope',
     icon: 'Building2'
@@ -303,9 +303,9 @@ export const services = [
     ],
     image: '/images/service_solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1548611716-30048123d881?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80'
+      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM (1).jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM.jpeg',
+      '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM (1).jpeg'
     ],
     timeframe: '1–3 days for residential systems',
     icon: 'Sun'

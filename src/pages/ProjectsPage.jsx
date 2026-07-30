@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapPin, ArrowRight } from 'lucide-react';
-import { projects } from '../data/projectsData';
+import { projects, galleryImages } from '../data/projectsData';
 
 export default function ProjectsPage({ onSelectProject, setCurrentPage }) {
   const [filter, setFilter] = useState('all');
@@ -86,6 +86,23 @@ export default function ProjectsPage({ onSelectProject, setCurrentPage }) {
               <button onClick={() => setFilter('all')} className="btn-outline">View All Projects</button>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Photo Gallery */}
+      <section className="py-16 bg-[#110A05]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="mb-12">
+            <h2 className="font-display font-light text-3xl md:text-4xl text-white mb-4">Project Gallery</h2>
+            <p className="text-white/70">A deeper look into our craftsmanship and site progress.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {galleryImages && galleryImages.map((img, i) => (
+              <div key={i} className="relative aspect-square overflow-hidden rounded-lg group">
+                <img src={img} alt={`Gallery ${i}`} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -36,7 +36,7 @@ export const blogPosts = [
     authorRole: 'Master Plumbers',
     date: 'May 2025',
     readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM.jpeg',
     blurb: 'A bathroom renovation without proper waterproofing is a ticking time bomb. We\'ve fixed too many of them — here\'s what to watch out for.',
     excerpt: 'Every year we get called in to fix bathroom renovations that failed within 18 months of completion. The cause is almost always the same: inadequate waterproofing behind tiles.',
     content: 'Every year we get called in to fix bathroom renovations that failed within 18 months of completion. The cause is almost always the same: inadequate or entirely absent waterproofing membrane behind the tiles. Here\'s how to do it correctly from the start.'
@@ -50,7 +50,7 @@ export const blogPosts = [
     authorRole: 'Structural Team',
     date: 'April 2025',
     readTime: '6 min read',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (1).jpeg',
     blurb: 'Speed, cost, and flexibility versus permanence and mass — choosing between drywall and brick walls depends on your specific situation.',
     excerpt: 'When a client needs to subdivide space or add a partition wall, we are often asked: should we use drywall or brick? The answer depends on speed, budget, and acoustic needs.',
     content: 'When a client needs to subdivide space or add a partition wall, we are often asked: should we use drywall or brick? The answer is nuanced and depends on several factors including speed, budget, future flexibility, and acoustic requirements.'
@@ -64,7 +64,7 @@ export const blogPosts = [
     authorRole: 'Certified Electricians',
     date: 'March 2025',
     readTime: '4 min read',
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (2).jpeg',
     blurb: 'Most South African homes have electrical installations that haven\'t been checked in years. Some signs of trouble are obvious — others are silent killers.',
     excerpt: 'Electrical fires are one of the leading causes of house fires in South Africa. Here are the five warning signs that your installation needs immediate professional attention.',
     content: 'Electrical fires are one of the leading causes of house fires in South Africa. Many start in walls and roof spaces where they can smoulder undetected for hours. Here are the five warning signs that your installation needs immediate professional attention.'
@@ -78,7 +78,7 @@ export const blogPosts = [
     authorRole: 'Kitchen Designers',
     date: 'February 2025',
     readTime: '7 min read',
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM.jpeg',
     blurb: 'A realistic, honest breakdown of kitchen renovation costs in Gauteng — from a basic facelift to a complete custom kitchen.',
     excerpt: 'Kitchen renovation costs vary wildly depending on scope, materials, and contractors. Here\'s an honest breakdown of what things actually cost at various quality levels.',
     content: 'Kitchen renovation costs vary wildly depending on the scope, materials, and who you hire. We\'ve done hundreds of kitchens across Centurion and Pretoria — here\'s an honest breakdown of what things actually cost at various quality levels, and where you can save without compromising.'

@@ -32,7 +32,7 @@ export default function AboutPage({ setCurrentPage }) {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+                src="/images/WhatsApp Image 2026-07-30 at 11.35.34 AM.jpeg"
                 alt="Deskab Projects work"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[4/5]"
               />

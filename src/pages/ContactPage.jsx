@@ -196,7 +196,7 @@ export default function ContactPage({ showToast }) {
               <div className="card p-6 bg-[#F2E8DA]">
                 <div className="text-xs font-semibold tracking-wide uppercase text-[#B8651B] mb-3">Service Area</div>
                 <div className="rounded-xl overflow-hidden h-40 bg-[#1F1611] flex items-center justify-center relative">
-                  <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=1200&q=80" alt="Centurion area" className="w-full h-full object-cover opacity-40" />
+                  <img src="/images/WhatsApp Image 2026-07-30 at 11.35.35 AM.jpeg" alt="Centurion area" className="w-full h-full object-cover opacity-40" />
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
                     <MapPin className="w-8 h-8 text-[#E8A04E] mb-2" />
                     <div className="font-semibold text-sm">Centurion & Pretoria</div>
