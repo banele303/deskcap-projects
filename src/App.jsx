@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ChatWidget from './components/ChatWidget';
+import WhatsAppWidget from './components/WhatsAppWidget';
 import ProjectModal from './components/ProjectModal';
 import Toast from './components/Toast';
 
@@ -96,8 +96,8 @@ export default function App() {
       {/* Footer */}
       <Footer setCurrentPage={setCurrentPage} showToast={showToast} />
 
-      {/* Chat Widget */}
-      <ChatWidget isOpen={chatOpen} setIsOpen={setChatOpen} />
+      {/* WhatsApp Widget */}
+      <WhatsAppWidget />
 
       {/* Project Details Modal */}
       <ProjectModal
