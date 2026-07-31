@@ -66,8 +66,8 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
       <section className="relative min-h-screen hero-bg-container overflow-hidden grain-overlay flex items-center pt-28 pb-20">
         <img
           src="/images/interior-renovations.jpg"
-          alt="Deskab Projects Renovation Work"
-          className="w-full h-full object-cover opacity-35 scale-105 animate-pulse-subtle"
+          alt="Deskab Projects — Centurion Renovations"
+          className="hero-bg-image"
         />
         <div className="hero-bg-overlay"></div>
         <div className="glow-orb w-96 h-96 bg-[#B8651B] top-20 -right-20 opacity-40"></div>
