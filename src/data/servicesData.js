@@ -171,12 +171,14 @@ export const services = [
       { step: '03', title: 'Boarding', desc: 'Rhinoboard fixed, insulation inserted where required, joints taped and skimmed.' },
       { step: '04', title: 'Finishing', desc: 'Final skim coat applied and sanded smooth, ready for painting or tiling.' }
     ],
-    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM.jpeg',
+    image: '/images/projects/drywalling-work.jpeg',
     gallery: [
+      '/images/projects/drywalling-hd.jpeg',
+      '/images/projects/drywalling-work.jpeg',
+      '/images/projects/drywalling-work2.jpeg',
       '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM.jpeg',
       '/images/projects/WhatsApp Image 2026-07-30 at 11.41.11 AM (1).jpeg',
-      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM (2).jpeg',
-      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM (3).jpeg'
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM (2).jpeg'
     ],
     timeframe: '1–4 days per partition',
     icon: 'PanelLeft'
@@ -273,12 +275,14 @@ export const services = [
       { step: '03', title: 'Certified Installation', desc: 'Registered electricians carry out all work to SANS 10142 standards.' },
       { step: '04', title: 'COC Issued', desc: 'Certificate of Compliance issued on completion — every time, no exceptions.' }
     ],
-    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM.jpeg',
+    image: '/images/projects/electrical-work.jpeg',
     gallery: [
+      '/images/projects/electrical-hd.jpeg',
+      '/images/projects/electrical-work.jpeg',
+      '/images/projects/electrical-work2.jpeg',
       '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM.jpeg',
       '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM (1).jpeg',
-      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM (2).jpeg',
-      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.26 AM (2).jpeg'
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM (2).jpeg'
     ],
     timeframe: '1 day (repairs) to 2 weeks (full install)',
     icon: 'Zap'

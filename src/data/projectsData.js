@@ -24,7 +24,7 @@ export const projects = [
     serviceId: 'drywalling',
     location: 'Pretoria, Gauteng',
     year: '2024',
-    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM.jpeg',
+    image: '/images/projects/drywalling-work.jpeg',
     blurb: 'Open-plan office converted into private offices using steel stud partitions and acoustic ceilings.',
     description: 'A fast-growing tech company needed their open-plan office divided into private offices and meeting rooms. We installed a complete steel stud drywall partition system with acoustic insulation.',
     specs: [
@@ -150,7 +150,7 @@ export const projects = [
     serviceId: 'electrical',
     location: 'Garsfontein, Pretoria',
     year: '2024',
-    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM.jpeg',
+    image: '/images/projects/electrical-work.jpeg',
     blurb: 'Full DB board upgrade, LED downlight installation, and COC certificate.',
     description: 'Upgraded 3-phase DB board, added surge protection, rewired lighting circuits, and issued a formal electrical Certificate of Compliance.',
     specs: [
