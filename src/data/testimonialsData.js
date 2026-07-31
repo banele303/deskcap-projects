@@ -1,0 +1,233 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'maxmass shumba',
+    date: 'June 2026',
+    rating: 5,
+    source: 'Google',
+    quote: 'Exceptional house renovation, highly recommend. We had our 3 bedroom home full renovated and the results blew us away - the team was professional from day 1, arrived on time, kept the site clean and…',
+    avatar: 'M',
+    location: 'Centurion',
+    service: 'Renovation'
+  },
+  {
+    id: 2,
+    name: 'Fortunate Ngceshe',
+    date: 'May 2026',
+    rating: 5,
+    source: 'Google',
+    quote: 'We have received excellent service from them. They transformed both our bathrooms and tiled the whole house beautifully. I do recommend them to anyone who wants excellent and quality service.',
+    avatar: 'F',
+    location: 'Centurion',
+    service: 'Plumbing & Tiling'
+  },
+  {
+    id: 3,
+    name: 'Portia Matsena',
+    date: 'April 2026',
+    rating: 5,
+    source: 'Google',
+    quote: "I'm absolutely delighted with the painting work done by Deskab on my home. The transformation is remarkable — the finish is clean, precise, and professionally executed, and the overall look has elevated the entire property beautifully.",
+    avatar: 'P',
+    location: 'Centurion',
+    service: 'Painting'
+  },
+  {
+    id: 4,
+    name: 'BEKI TEMBA Magazi',
+    date: 'Dec 2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Very professional and clean job. Desmond and his team were very courteous and thorough. Great to work with!',
+    avatar: 'B',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 5,
+    name: 'lorna Masemola',
+    date: '2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'A marvellous job well done. Good service. They are trustworthy to do the work in your absence. They left my place clean and spotless.',
+    avatar: 'L',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 6,
+    name: 'Lindah Timbah',
+    date: '2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Thank you so much Deskab Renovations for wonderful work. Thank you for your honesty and integrity. My house looks great and new. I will always use your services and will recommend you to others.',
+    avatar: 'L',
+    location: 'Centurion',
+    service: 'Renovation'
+  },
+  {
+    id: 7,
+    name: 'keshlen naicker',
+    date: 'Aug 2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'The team at deskcab renovations did a wonderful job on my room cupboards. The company is responsive, professional and provide good quality products at a reasonable price.',
+    avatar: 'K',
+    location: 'Centurion',
+    service: 'Carpentry'
+  },
+  {
+    id: 8,
+    name: 'Annelize Mulligan',
+    date: '2024',
+    rating: 5,
+    source: 'Google',
+    quote: "A job well done and very professional. I will use the again for sure. I'm am very happy with their workmanship. Well done guys. Appreciate your hard work.",
+    avatar: 'A',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 9,
+    name: 'Nkanyezi Mhlongo',
+    date: '2024',
+    rating: 5,
+    source: 'Google',
+    quote: 'Very neat work, thank you so much. I will definitely be using your services again. Very cost efficient as well.',
+    avatar: 'N',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 10,
+    name: 'Edwin Gumbo',
+    date: '2022',
+    rating: 5,
+    source: 'Google',
+    quote: 'I had an the amazing opportunity of having my house renovated into a home by the enthusiastic and friendly people of Deskab and i appreciate their touch to my home.',
+    avatar: 'E',
+    location: 'Centurion',
+    service: 'Renovation'
+  },
+  {
+    id: 11,
+    name: 'Likhet Obey Riverz',
+    date: 'May 2026',
+    rating: 5,
+    source: 'Google',
+    quote: 'Reliable contractor who does what he promises. No hidden fees just work on time.',
+    avatar: 'L',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 12,
+    name: 'McDonald Martin',
+    date: 'Oct 2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Best service ever ihave used, they are fast and they know there job since I have used them I haven\'t had problem.. Keep it up guys',
+    avatar: 'M',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 13,
+    name: 'Lerato Makhaf',
+    date: '2021',
+    rating: 5,
+    source: 'Google',
+    quote: 'Great service and responsive too. He is very trustworthy and patient to explain to clients.',
+    avatar: 'L',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 14,
+    name: 'Mpho M',
+    date: '2021',
+    rating: 5,
+    source: 'Google',
+    quote: 'Great service👌🏾 5 years working relationship with Deskab renovations.',
+    avatar: 'M',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 15,
+    name: 'Kimberly Motloung',
+    date: '2024',
+    rating: 5,
+    source: 'Google',
+    quote: "Very effecient and thorough attention to detail. I'll definitely use them again!",
+    avatar: 'K',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 16,
+    name: 'Lavhe Nhleko',
+    date: '2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Very passionate and hard working team. Neat and attention to details.',
+    avatar: 'L',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 17,
+    name: 'praise nyoni',
+    date: 'Nov 2025',
+    rating: 5,
+    source: 'Google',
+    quote: "Great company l can recommend, they're very professional.",
+    avatar: 'P',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 18,
+    name: 'Mahlatse Ramoroka',
+    date: 'Oct 2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'I was happy with the service Desmond provided and would definitely recommend him.',
+    avatar: 'M',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 19,
+    name: 'neil naidoo',
+    date: 'Dec 2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Very professional and fixed my sliding door quickly.',
+    avatar: 'N',
+    location: 'Centurion',
+    service: 'Carpentry'
+  },
+  {
+    id: 20,
+    name: 'nditsheni lerato',
+    date: '2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Excellent service from Deskab Renovations',
+    avatar: 'N',
+    location: 'Centurion',
+    service: 'General Contracting'
+  },
+  {
+    id: 21,
+    name: 'Higher Life Christian Care',
+    date: '2025',
+    rating: 5,
+    source: 'Google',
+    quote: 'Realiable and trustworthy',
+    avatar: 'H',
+    location: 'Centurion',
+    service: 'General Contracting'
+  }
+];
