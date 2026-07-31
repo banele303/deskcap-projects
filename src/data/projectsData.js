@@ -180,15 +180,16 @@ export const projects = [
   },
   {
     id: 11,
-    title: 'Centurion Commercial Interior Design & Built-In Carpentry',
+    title: 'Centurion Custom TV Stand & Feature Wall Carpentry',
     category: 'Carpentry',
     serviceId: 'carpentry',
     location: 'Centurion, Gauteng',
     year: '2024',
-    image: '/images/projects/interior-design.jpeg',
-    blurb: 'Bespoke interior joinery, TV feature wall, and custom entertainment unit.',
-    description: 'Crafted custom floating TV feature walls, modern shelving units, and hidden storage compartments for a contemporary living space.',
+    image: '/images/projects/tv-area.jpeg',
+    blurb: 'Bespoke TV stand joinery, LED feature wall, and custom entertainment unit.',
+    description: 'Crafted custom floating TV stands, modern slatted wood feature walls, and hidden media storage units for a contemporary living space.',
     specs: [
+      { label: 'Item', value: 'Custom TV Stand & Wall Unit' },
       { label: 'Material', value: 'Veneered MDF & Solid Trims' },
       { label: 'Location', value: 'Centurion' }
     ],

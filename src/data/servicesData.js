@@ -205,14 +205,14 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Our carpenters install with precision — level, plumb, and perfectly finished.' },
       { step: '04', title: 'Handover', desc: 'We adjust, test, and demonstrate before signing off on a defect-free installation.' }
     ],
-    image: '/images/projects/kitchen-remodeling.jpeg',
+    image: '/images/projects/tv-area.jpeg',
     gallery: [
+      '/images/projects/tv-area.jpeg',
+      '/images/projects/tv-area2.jpeg',
       '/images/projects/kitchen-remodeling.jpeg',
       '/images/projects/kitchen-remodeling5.jpeg',
       '/images/projects/kitchen-remodelling.jpeg',
       '/images/projects/kitchen-rmodeling.jpeg',
-      '/images/projects/tv-area.jpeg',
-      '/images/projects/tv-area2.jpeg',
       '/images/projects/bedroom area.jpeg',
       '/images/projects/interior-design.jpeg'
     ],
