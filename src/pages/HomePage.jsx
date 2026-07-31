@@ -65,9 +65,9 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
       {/* ─── HERO ─── */}
       <section className="relative min-h-screen hero-bg-container overflow-hidden grain-overlay flex items-center pt-28 pb-20">
         <img
-          src="/images/hero_renovation.jpg"
-          alt="Deskab Projects — Centurion Renovations"
-          className="hero-bg-image"
+          src="/images/interior-renovations.jpg"
+          alt="Deskab Projects Renovation Work"
+          className="w-full h-full object-cover opacity-35 scale-105 animate-pulse-subtle"
         />
         <div className="hero-bg-overlay"></div>
         <div className="glow-orb w-96 h-96 bg-[#B8651B] top-20 -right-20 opacity-40"></div>
@@ -316,7 +316,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden aspect-[5/6] shadow-2xl">
-                <img src="/images/WhatsApp Image 2026-07-30 at 11.35.36 AM.jpeg" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
+                <img src="/images/bathroom5.jpeg" alt="Deskab Projects craftsmanship" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1F1611]/80 to-transparent"></div>
               </div>
               <div className="absolute -bottom-8 -right-4 lg:-right-8 max-w-xs bg-[#FAF6F0] text-[#1F1611] p-6 rounded-xl shadow-2xl border border-[#E8DDD0]">
