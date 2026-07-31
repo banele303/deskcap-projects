@@ -43,9 +43,13 @@ export default function Footer({ setCurrentPage, showToast }) {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#E8A04E] flex-shrink-0" />
-                <a href="mailto:deskabrenovations01@gmail.com" className="hover:text-white transition-colors">
-                  deskabrenovations01@gmail.com
+                <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">
+                  info@deskabprojects.co.za
                 </a>
+              </div>
+              <div className="text-xs text-white/50 space-y-1 mt-3 pt-3 border-t border-white/10">
+                <div><span className="text-white/70 font-medium">Reg:</span> 2025/575475/07</div>
+                <div><span className="text-white/70 font-medium">Tax:</span> 9765578191</div>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -108,7 +112,7 @@ export default function Footer({ setCurrentPage, showToast }) {
               </button>
             </form>
             <div className="mt-6 pt-6 border-t border-white/10 text-xs text-white/40 space-y-1">
-              <div>deskabrenovations01@gmail.com</div>
+              <div>info@deskabprojects.co.za</div>
               <div>Olievenhoutbosch, Centurion, 0187</div>
               <div>Gauteng, South Africa</div>
             </div>
@@ -116,7 +120,7 @@ export default function Footer({ setCurrentPage, showToast }) {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-xs text-white/40">© 2025 Deskab Projects. All rights reserved. Centurion, Gauteng, South Africa.</div>
+          <div className="text-xs text-white/40">© 2025 Deskab Projects. All rights reserved. Reg: 2025/575475/07 | Tax: 9765578191</div>
           <div className="text-xs text-white/40 font-display italic">"Quality craftsmanship, honest pricing, on-time delivery."</div>
         </div>
       </div>

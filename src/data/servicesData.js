@@ -22,11 +22,24 @@ export const services = [
       { step: '03', title: 'Application', desc: 'Two to three coats of premium paint applied by our skilled team for perfect coverage.' },
       { step: '04', title: 'Final Inspection', desc: 'We walk through with you and touch up anything that isn\'t perfect before we leave.' }
     ],
-    image: '/images/service_painting.jpg',
+    image: '/images/projects/painting.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM (1).jpeg'
+      '/images/projects/painting.jpeg',
+      '/images/projects/painting3.jpeg',
+      '/images/projects/painting4.jpeg',
+      '/images/projects/interior-painting.jpeg',
+      '/images/projects/interior-paint4.jpeg',
+      '/images/projects/exterior-painting.jpeg',
+      '/images/projects/cool-outside-painting.jpeg',
+      '/images/projects/roof-painting.jpeg',
+      '/images/projects/cool-roof.jpeg',
+      '/images/painting.jpeg',
+      '/images/painting2.jpeg',
+      '/images/painting4.jpeg',
+      '/images/painting5.jpeg',
+      '/images/painting-name.jpeg',
+      '/images/interior-painting.jpeg',
+      '/images/interior-painting3.jpeg'
     ],
     timeframe: '1–5 days depending on size',
     icon: 'Brush'
@@ -53,11 +66,21 @@ export const services = [
       { step: '03', title: 'Precision Laying', desc: 'Every tile set to laser level with the correct adhesive for the application.' },
       { step: '04', title: 'Grouting & Sealing', desc: 'Professional grouting, edge trims, and sealing for longevity and easy maintenance.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM.jpeg',
+    image: '/images/projects/cool-bath.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM (1).jpeg'
+      '/images/projects/cool-bath.jpeg',
+      '/images/projects/cool-bath2.jpeg',
+      '/images/projects/cool-bath4.jpeg',
+      '/images/projects/cool-bath5.jpeg',
+      '/images/projects/cool-bathroom.jpeg',
+      '/images/projects/cool-bathroom3.jpeg',
+      '/images/projects/shower.jpeg',
+      '/images/bathroom remodelling.jpeg',
+      '/images/bathroom-remodeling3.jpeg',
+      '/images/bathroom2.jpeg',
+      '/images/bathroom4.jpeg',
+      '/images/bathroom5.jpeg',
+      '/images/bathrorom-remodeling2.jpeg'
     ],
     timeframe: '2–7 days depending on area',
     icon: 'Grid3x3'
@@ -84,11 +107,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Expert installation with precision cuts, expansion gaps, and proper acclimatisation.' },
       { step: '04', title: 'Sanding & Finishing', desc: 'Three-pass sanding and premium sealant or oil finish applied for a flawless result.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM.jpeg',
+    image: '/images/projects/woodenfloor.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM (2).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.23 AM.jpeg'
+      '/images/projects/woodenfloor.jpeg',
+      '/images/projects/cool-floor2.jpeg',
+      '/images/projects/cool-tamb.jpeg',
+      '/images/projects/cool-tamb2.jpeg'
     ],
     timeframe: '3–7 days depending on size',
     icon: 'Layers'
@@ -115,11 +139,12 @@ export const services = [
       { step: '03', title: 'Boarding & Plastering', desc: 'Rhinoboard fitted, joints skimmed, and surface prepared for paint or texture.' },
       { step: '04', title: 'Cornices & Details', desc: 'Cornices fitted and finished, LED housings installed, ready for painting.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.24 AM.jpeg',
+    image: '/images/projects/ceiling.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.33 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.34 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.34 AM.jpeg'
+      '/images/projects/ceiling.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.07 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.08 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.09 AM.jpeg'
     ],
     timeframe: '2–5 days per area',
     icon: 'Square'
@@ -146,11 +171,12 @@ export const services = [
       { step: '03', title: 'Boarding', desc: 'Rhinoboard fixed, insulation inserted where required, joints taped and skimmed.' },
       { step: '04', title: 'Finishing', desc: 'Final skim coat applied and sanded smooth, ready for painting or tiling.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.35 AM (1).jpeg',
+    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.35 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.36 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.36 AM.jpeg'
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.11 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM (2).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.13 AM (3).jpeg'
     ],
     timeframe: '1–4 days per partition',
     icon: 'PanelLeft'
@@ -177,11 +203,16 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Our carpenters install with precision — level, plumb, and perfectly finished.' },
       { step: '04', title: 'Handover', desc: 'We adjust, test, and demonstrate before signing off on a defect-free installation.' }
     ],
-    image: '/images/Screenshot 2026-07-30 062601.png',
+    image: '/images/projects/kitchen-remodeling.jpeg',
     gallery: [
-      '/images/Screenshot 2026-07-30 062752.png',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.00 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.02 AM (1).jpeg'
+      '/images/projects/kitchen-remodeling.jpeg',
+      '/images/projects/kitchen-remodeling5.jpeg',
+      '/images/projects/kitchen-remodelling.jpeg',
+      '/images/projects/kitchen-rmodeling.jpeg',
+      '/images/projects/tv-area.jpeg',
+      '/images/projects/tv-area2.jpeg',
+      '/images/projects/bedroom area.jpeg',
+      '/images/projects/interior-design.jpeg'
     ],
     timeframe: '1–3 weeks from design approval',
     icon: 'Hammer'
@@ -208,11 +239,14 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Registered plumbers carry out all work to SANS standards with quality materials.' },
       { step: '04', title: 'Pressure Test', desc: 'All new pipework is pressure tested before walls are closed up.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.02 AM.jpeg',
+    image: '/images/projects/shower.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.03 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.04 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.06 AM.jpeg'
+      '/images/projects/shower.jpeg',
+      '/images/projects/cool-bath.jpeg',
+      '/images/projects/cool-bath4.jpeg',
+      '/images/projects/cool-bathroom.jpeg',
+      '/images/bathroom remodelling.jpeg',
+      '/images/bathroom5.jpeg'
     ],
     timeframe: 'Emergency same-day; renovations 3–10 days',
     icon: 'Droplets'
@@ -239,11 +273,12 @@ export const services = [
       { step: '03', title: 'Certified Installation', desc: 'Registered electricians carry out all work to SANS 10142 standards.' },
       { step: '04', title: 'COC Issued', desc: 'Certificate of Compliance issued on completion — every time, no exceptions.' }
     ],
-    image: '/images/WhatsApp Image 2026-07-30 at 11.35.07 AM.jpeg',
+    image: '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.10 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.11 AM.jpeg'
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.15 AM (2).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.26 AM (2).jpeg'
     ],
     timeframe: '1 day (repairs) to 2 weeks (full install)',
     icon: 'Zap'
@@ -270,11 +305,26 @@ export const services = [
       { step: '03', title: 'Superstructure', desc: 'Brickwork, lintels, roof structure, and all wet trades completed in sequence.' },
       { step: '04', title: 'Finishes', desc: 'Plastering, screed, ceilings, tiling, painting — full turnkey finish if required.' }
     ],
-    image: '/images/service_building.jpg',
+    image: '/images/building3.jpeg',
     gallery: [
+      '/images/building3.jpeg',
+      '/images/building4.jpeg',
+      '/images/house-remodeling.jpeg',
       '/images/service_building.jpg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.13 AM.jpeg'
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.28 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.31 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.31 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.33 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.35 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.35 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.36 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.37 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.38 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.42 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.46 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.48 AM (1).jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.48 AM.jpeg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.38.49 AM.jpeg'
     ],
     timeframe: '2 weeks to 6 months depending on scope',
     icon: 'Building2'
@@ -301,11 +351,12 @@ export const services = [
       { step: '03', title: 'Installation', desc: 'Panels mounted, DC and AC cabling run, inverter and battery bank installed by certified techs.' },
       { step: '04', title: 'Commission & Monitor', desc: 'System tested under load, monitoring app configured, and full handover to you.' }
     ],
-    image: '/images/service_solar.jpg',
+    image: '/images/projects/solar-panels.jpeg',
     gallery: [
-      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM (1).jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.16 AM.jpeg',
-      '/images/WhatsApp Image 2026-07-30 at 11.35.20 AM (1).jpeg'
+      '/images/projects/solar-panels.jpeg',
+      '/images/projects/solar2.jpeg',
+      '/images/service_solar.jpg',
+      '/images/projects/WhatsApp Image 2026-07-30 at 11.41.20 AM.jpeg'
     ],
     timeframe: '1–3 days for residential systems',
     icon: 'Sun'

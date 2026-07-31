@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Award, ShieldCheck, Heart, MapPin, Mail } from 'lucide-react';
+import { ArrowRight, Award, ShieldCheck, Heart, MapPin, Mail, FileText } from 'lucide-react';
 
 export default function AboutPage({ setCurrentPage }) {
   return (
@@ -16,11 +16,11 @@ export default function AboutPage({ setCurrentPage }) {
           <p className="mt-6 text-lg text-white/70 max-w-2xl">
             Based in Olievenhoutbosch, Deskab Projects brings together skilled artisans across 10 trades — delivering quality renovation and construction work throughout Centurion and Gauteng.
           </p>
-          <div className="mt-5 flex items-center gap-4 text-white/50 text-sm">
+          <div className="mt-5 flex flex-wrap items-center gap-4 text-white/50 text-sm">
             <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#E8A04E]" /> Olievenhoutbosch, Centurion, 0187, South Africa</div>
             <span>·</span>
             <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-[#E8A04E]" />
-              <a href="mailto:deskabrenovations01@gmail.com" className="hover:text-white transition-colors">deskabrenovations01@gmail.com</a>
+              <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">info@deskabprojects.co.za</a>
             </div>
           </div>
         </div>
@@ -46,9 +46,24 @@ export default function AboutPage({ setCurrentPage }) {
               <p className="text-[#7A6B5E] leading-relaxed mb-4">
                 Too many clients had been burned by fly-by-night contractors who disappear mid-project, overcharge, or deliver substandard work. We set out to be different — clear quotes, fixed pricing, on-time delivery, and guaranteed workmanship.
               </p>
-              <p className="text-[#7A6B5E] leading-relaxed">
+              <p className="text-[#7A6B5E] leading-relaxed mb-6">
                 From our base in Olievenhoutbosch, we've grown our team to cover all 10 major renovation trades — meaning you get one accountable company managing every aspect of your project from start to finish.
               </p>
+
+              {/* Official Registration & Tax Box */}
+              <div className="p-5 bg-[#FAF6F0] rounded-xl border border-[#E8DDD0] space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-[#B8651B] flex items-center gap-1.5 mb-2">
+                  <FileText className="w-4 h-4 text-[#B8651B]" />
+                  <span>Registered & Tax Compliant Business</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-[#1F1611]">
+                  <div><strong className="text-[#7A6B5E] font-medium">Company Reg:</strong> 2025/575475/07</div>
+                  <div><strong className="text-[#7A6B5E] font-medium">Tax Ref:</strong> 9765578191</div>
+                </div>
+                <div className="text-xs text-[#7A6B5E] pt-1">
+                  Email: <a href="mailto:info@deskabprojects.co.za" className="text-[#B8651B] font-semibold hover:underline">info@deskabprojects.co.za</a>
+                </div>
+              </div>
             </div>
           </div>
 

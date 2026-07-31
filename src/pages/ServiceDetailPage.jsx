@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import { ArrowRight, CheckCircle2, ChevronRight, Clock, Star, ArrowLeft } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ChevronRight, Clock, Star, ArrowLeft, X, ZoomIn } from 'lucide-react';
 
 export default function ServiceDetailPage({ service, setCurrentPage }) {
   const [activeImg, setActiveImg] = useState(0);
+  const [lightboxIndex, setLightboxIndex] = useState(null);
 
   if (!service) return null;
 
-  const allImages = [service.image, ...(service.gallery || [])];
+  // Deduplicate images if any
+  const galleryList = Array.from(new Set([service.image, ...(service.gallery || [])]));
 
   return (
     <div className="min-h-screen pt-20">
@@ -68,21 +70,27 @@ export default function ServiceDetailPage({ service, setCurrentPage }) {
         </div>
       </section>
 
-      {/* Image Gallery + Details */}
+      {/* Main Feature Image + Details */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
-            {/* Gallery */}
+            {/* Feature Image Viewer */}
             <div>
-              <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl img-zoom bg-[#1F1611] mb-4">
+              <div
+                onClick={() => setLightboxIndex(activeImg)}
+                className="rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl img-zoom bg-[#1F1611] mb-4 cursor-pointer relative group"
+              >
                 <img
-                  src={allImages[activeImg]}
+                  src={galleryList[activeImg]}
                   alt={service.title}
                   className="w-full h-full object-cover"
                 />
+                <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white gap-2 font-medium text-sm">
+                  <ZoomIn className="w-5 h-5" /> View Fullscreen
+                </div>
               </div>
-              <div className="flex gap-3">
-                {allImages.map((img, i) => (
+              <div className="flex gap-3 overflow-x-auto pb-2">
+                {galleryList.slice(0, 6).map((img, i) => (
                   <button
                     key={i}
                     onClick={() => setActiveImg(i)}
@@ -120,6 +128,81 @@ export default function ServiceDetailPage({ service, setCurrentPage }) {
         </div>
       </section>
 
+      {/* Complete Dedicated Photo Gallery Section */}
+      <section className="py-20 bg-[#FAF6F0] border-t border-b border-[#E8DDD0]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+            <div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-3">— Actual Work Showcase</div>
+              <h2 className="font-display text-3xl md:text-4xl font-semibold text-[#1F1611]">
+                {service.title} Project Gallery
+              </h2>
+            </div>
+            <div className="text-sm text-[#7A6B5E]">
+              Showing {galleryList.length} completed {service.title.toLowerCase()} projects by Deskab Projects.
+            </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {galleryList.map((img, i) => (
+              <div
+                key={i}
+                onClick={() => setLightboxIndex(i)}
+                className="group relative rounded-xl overflow-hidden aspect-[4/3] bg-[#1F1611] shadow-md cursor-pointer hover:shadow-xl transition-all"
+              >
+                <img
+                  src={img}
+                  alt={`${service.title} project photo ${i + 1}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-4 flex flex-col justify-end text-white">
+                  <div className="text-xs font-semibold text-[#E8A04E]">{service.title} Project</div>
+                  <div className="text-sm font-medium">Click to view full screen</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Lightbox Modal */}
+      {lightboxIndex !== null && (
+        <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
+          <button
+            onClick={() => setLightboxIndex(null)}
+            className="absolute top-6 right-6 text-white/70 hover:text-white p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors border-none cursor-pointer"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <div className="max-w-4xl w-full max-h-[85vh] flex flex-col items-center">
+            <img
+              src={galleryList[lightboxIndex]}
+              alt={`${service.title} full view`}
+              className="max-w-full max-h-[75vh] object-contain rounded-lg shadow-2xl"
+            />
+            <div className="mt-4 text-white text-center">
+              <div className="font-semibold text-lg">{service.title} Project Photo {lightboxIndex + 1} of {galleryList.length}</div>
+              <div className="flex gap-4 mt-3 justify-center">
+                <button
+                  disabled={lightboxIndex === 0}
+                  onClick={() => setLightboxIndex(lightboxIndex - 1)}
+                  className="px-4 py-2 bg-white/10 hover:bg-white/20 disabled:opacity-30 rounded-lg text-sm text-white border-none cursor-pointer"
+                >
+                  Previous
+                </button>
+                <button
+                  disabled={lightboxIndex === galleryList.length - 1}
+                  onClick={() => setLightboxIndex(lightboxIndex + 1)}
+                  className="px-4 py-2 bg-[#B8651B] hover:bg-[#8B4A14] disabled:opacity-30 rounded-lg text-sm text-white border-none cursor-pointer"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Our Process */}
       <section className="py-24 bg-[#F2E8DA] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -132,7 +215,6 @@ export default function ServiceDetailPage({ service, setCurrentPage }) {
           </div>
 
           <div className="grid md:grid-cols-4 gap-6 relative">
-            {/* Process connector line */}
             <div className="hidden md:block process-line"></div>
             {service.process.map((step, i) => (
               <div key={i} className="card p-6 text-center relative">

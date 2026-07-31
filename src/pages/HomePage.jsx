@@ -524,8 +524,8 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
           </p>
           <div className="flex items-center justify-center gap-2 text-white/50 text-sm mb-10">
             <Mail className="w-4 h-4 text-[#E8A04E]" />
-            <a href="mailto:deskabrenovations01@gmail.com" className="hover:text-white transition-colors">
-              deskabrenovations01@gmail.com
+            <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">
+              info@deskabprojects.co.za
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">

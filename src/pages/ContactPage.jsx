@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, ArrowRight, ShieldAlert, MessageSquare } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowRight, ShieldAlert, MessageSquare, FileText } from 'lucide-react';
 
 export default function ContactPage({ showToast }) {
   const [formData, setFormData] = useState({
@@ -134,10 +134,24 @@ export default function ContactPage({ showToast }) {
                   </div>
                   <div>
                     <div className="text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-1">Email Us</div>
-                    <a href="mailto:deskabrenovations01@gmail.com" className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors break-all text-sm">
-                      deskabrenovations01@gmail.com
+                    <a href="mailto:info@deskabprojects.co.za" className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors break-all text-sm">
+                      info@deskabprojects.co.za
                     </a>
                     <div className="text-xs text-[#7A6B5E] mt-1">We reply within 48 hours</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="card p-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-11 h-11 rounded-lg bg-[#B8651B]/10 flex items-center justify-center flex-shrink-0 text-[#B8651B]">
+                    <FileText className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-1">Company Details</div>
+                    <div className="text-[#1F1611] font-semibold text-sm">Reg: 2025/575475/07</div>
+                    <div className="text-[#1F1611] font-semibold text-sm">Tax: 9765578191</div>
+                    <div className="text-xs text-[#7A6B5E] mt-1">Registered &amp; Tax Compliant</div>
                   </div>
                 </div>
               </div>
@@ -152,7 +166,7 @@ export default function ContactPage({ showToast }) {
                     <div className="text-[#1F1611] font-semibold">Olievenhoutbosch</div>
                     <div className="text-[#1F1611]">Centurion, 0187</div>
                     <div className="text-[#1F1611]">Gauteng, South Africa</div>
-                    <div className="text-xs text-[#7A6B5E] mt-1">Serving Centurion, Pretoria & Midrand</div>
+                    <div className="text-xs text-[#7A6B5E] mt-1">Serving Centurion, Pretoria &amp; Midrand</div>
                   </div>
                 </div>
               </div>
@@ -186,8 +200,8 @@ export default function ContactPage({ showToast }) {
                 <p className="text-sm text-white/70 mb-4">
                   For plumbing emergencies (burst pipes, blocked drains) or electrical faults — contact us for urgent response across Centurion and Pretoria.
                 </p>
-                <a href="mailto:deskabrenovations01@gmail.com" className="text-[#E8A04E] font-semibold text-sm flex items-center gap-2 hover:gap-3 transition-all">
-                  deskabrenovations01@gmail.com
+                <a href="mailto:info@deskabprojects.co.za" className="text-[#E8A04E] font-semibold text-sm flex items-center gap-2 hover:gap-3 transition-all">
+                  info@deskabprojects.co.za
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>

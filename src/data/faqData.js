@@ -8,7 +8,7 @@ export const faqs = [
       },
       {
         q: 'How do I get a quote?',
-        a: 'You can request a quote directly through our Contact page, call us, or send an email to deskabrenovations01@gmail.com. We aim to respond within 48 hours. For most projects, we offer a free on-site assessment before quoting.'
+        a: 'You can request a quote directly through our Contact page, call us, or send an email to info@deskabprojects.co.za. We aim to respond within 48 hours. For most projects, we offer a free on-site assessment before quoting.'
       },
       {
         q: 'How long does it take to get started after accepting a quote?',
