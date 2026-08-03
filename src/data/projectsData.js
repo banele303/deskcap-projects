@@ -42,7 +42,7 @@ export const projects = [
     serviceId: 'solar-installation',
     location: 'Midrand, Gauteng',
     year: '2024',
-    image: '/images/projects/solar-panels.jpeg',
+    image: '/images/projects/solar_1.jpg',
     blurb: '10kW hybrid solar system with 20kWh lithium battery storage for a large family home.',
     description: 'We designed a 10kW Sunsynk hybrid system with 20kWh of lithium battery storage and high-efficiency panels to ensure uninterrupted power during load shedding.',
     specs: [
@@ -150,7 +150,7 @@ export const projects = [
     serviceId: 'electrical',
     location: 'Garsfontein, Pretoria',
     year: '2024',
-    image: '/images/projects/electrical-work.jpeg',
+    image: '/images/projects/electrical_1.jpg',
     blurb: 'Full DB board upgrade, LED downlight installation, and COC certificate.',
     description: 'Upgraded 3-phase DB board, added surge protection, rewired lighting circuits, and issued a formal electrical Certificate of Compliance.',
     specs: [
@@ -250,7 +250,7 @@ export const projects = [
     serviceId: 'solar-installation',
     location: 'Pretoria, Gauteng',
     year: '2024',
-    image: '/images/projects/solar2.jpeg',
+    image: '/images/projects/solar_2.jpg',
     blurb: '5kW Inverter with 10kWh Lithium Battery storage installation.',
     description: 'Clean wall-mounted inverter and battery installation in a garage utility room, providing seamless power backup.',
     specs: [
@@ -274,6 +274,22 @@ export const projects = [
       { label: 'Location', value: 'Centurion' }
     ],
     featured: false
+  },
+  {
+    id: 17,
+    title: 'Commercial Electrical Installation',
+    category: 'Electrical',
+    serviceId: 'electrical',
+    location: 'Pretoria, Gauteng',
+    year: '2024',
+    image: '/images/projects/electrical_2.jpg',
+    blurb: 'Complete commercial electrical fit-out, lighting and distribution board.',
+    description: 'Provided end-to-end commercial electrical services including trunking, three-phase distribution board installation, energy-efficient lighting, and safety compliance certification.',
+    specs: [
+      { label: 'Scope', value: 'Commercial Electrical Fit-out' },
+      { label: 'Location', value: 'Pretoria' }
+    ],
+    featured: false
   }
 ];
 
@@ -283,7 +299,7 @@ export const galleryImages = [
   '/images/projects/woodenfloor.jpeg',
   '/images/projects/kitchen-remodeling.jpeg',
   '/images/projects/ceiling.jpeg',
-  '/images/projects/solar-panels.jpeg',
+  '/images/projects/solar_1.jpg',
   '/images/projects/shower.jpeg',
   '/images/building3.jpeg',
   '/images/projects/cool-floor2.jpeg',
@@ -293,5 +309,7 @@ export const galleryImages = [
   '/images/projects/painting3.jpeg',
   '/images/projects/exterior-painting.jpeg',
   '/images/projects/roof-painting.jpeg',
-  '/images/projects/solar2.jpeg'
+  '/images/projects/solar_2.jpg',
+  '/images/projects/electrical_1.jpg',
+  '/images/projects/electrical_2.jpg'
 ];
