@@ -179,7 +179,7 @@ export default function ContactPage({ showToast }) {
                   <div>
                     <div className="text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-1">WhatsApp</div>
                     <a
-                      href="https://wa.me/27000000000?text=Hi%20Deskab%20Projects%2C%20I%27d%20like%20a%20quote%20for..."
+                      href="https://wa.me/27747404229?text=Hi%20Deskab%20Projects%2C%20I%27d%20like%20a%20quote%20for..."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Instagram, Facebook, Mail, MapPin, Phone } from 'lucide-react';
+import { ArrowRight, Instagram, Facebook, Mail, MapPin, Phone, Linkedin, Music, Globe } from 'lucide-react';
 import { services } from '../data/servicesData';
 
 export default function Footer({ setCurrentPage, showToast }) {
@@ -39,7 +39,9 @@ export default function Footer({ setCurrentPage, showToast }) {
             <div className="space-y-2 text-sm text-white/60 mb-6">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#E8A04E] flex-shrink-0 mt-0.5" />
-                <span>Olievenhoutbosch, Centurion, 0187, South Africa</span>
+                <a href="https://maps.app.goo.gl/7FEZjhppWYcD3YP39?g_st=iwb" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                  Olievenhoutbosch, Centurion, 0187, South Africa
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#E8A04E] flex-shrink-0" />
@@ -53,11 +55,20 @@ export default function Footer({ setCurrentPage, showToast }) {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <a href="#" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/desmondkabudura/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="Instagram">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="Facebook">
+              <a href="https://www.facebook.com/deskab2999/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="Facebook">
                 <Facebook className="w-4 h-4" />
+              </a>
+              <a href="https://www.linkedin.com/in/desmond-kabudura-b2413499" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="LinkedIn">
+                <Linkedin className="w-4 h-4" />
+              </a>
+              <a href="https://www.tiktok.com/@deskab.renovation" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="TikTok">
+                <Music className="w-4 h-4" />
+              </a>
+              <a href="https://g.co/kgs/Zhjrfs8" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center hover:bg-[#B8651B] hover:border-[#B8651B] transition-colors" aria-label="Google Profile">
+                <Globe className="w-4 h-4" />
               </a>
             </div>
           </div>
