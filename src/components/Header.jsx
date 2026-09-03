@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Mail, ArrowRight, Menu, X, ChevronDown } from 'lucide-react';
 import { services } from '../data/servicesData';
 
@@ -120,13 +120,13 @@ export default function Header({ currentPage, setCurrentPage }) {
         {/* Desktop CTA & Email */}
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="mailto:info@deskabprojects.co.za"
+            href="mailto:swdandflooringsa@gmail.com"
             className={`text-sm font-medium transition-colors flex items-center gap-2 ${
               isDarkHero ? 'text-white hover:text-[#E8A04E]' : 'text-[#1F1611] hover:text-[#B8651B]'
             }`}
           >
             <Mail className="w-4 h-4" />
-            info@deskabprojects.co.za
+            swdandflooringsa@gmail.com
           </a>
           <button
             onClick={() => handleNavClick('contact')}
@@ -185,11 +185,11 @@ export default function Header({ currentPage, setCurrentPage }) {
               Get Free Quote
             </button>
             <a
-              href="mailto:info@deskabprojects.co.za"
+              href="mailto:swdandflooringsa@gmail.com"
               className="flex items-center justify-center gap-2 text-sm text-[#7A6B5E] py-3 mt-2"
             >
               <Mail className="w-4 h-4" />
-              info@deskabprojects.co.za
+              swdandflooringsa@gmail.com
             </a>
           </div>
         </div>

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 
-export default function WhatsAppWidget({ phoneNumber = "27747404229" }) {
+export default function WhatsAppWidget({ phoneNumber = "27639148319" }) {
   const [isOpen, setIsOpen] = useState(false);
   const message = "Hi Deskab Projects, I'd like to get a quote!";
 

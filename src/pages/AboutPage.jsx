@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { ArrowRight, Award, ShieldCheck, Heart, MapPin, Mail, FileText } from 'lucide-react';
 
 export default function AboutPage({ setCurrentPage }) {
@@ -9,18 +9,18 @@ export default function AboutPage({ setCurrentPage }) {
       <section className="pt-24 pb-20 bg-[#1F1611] text-white relative overflow-hidden grain-overlay">
         <div className="glow-orb w-96 h-96 bg-[#B8651B] -top-40 left-1/4 opacity-30"></div>
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-4">— Our Story</div>
+          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-4">â€” Our Story</div>
           <h1 className="font-display font-light text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight max-w-4xl">
             Centurion's most <em className="italic font-medium text-[#E8A04E]">trusted</em> renovation team.
           </h1>
           <p className="mt-6 text-lg text-white/70 max-w-2xl">
-            Based in Olievenhoutbosch, Deskab Projects brings together skilled artisans across 10 trades — delivering quality renovation and construction work throughout Centurion and Gauteng.
+            Based in Olievenhoutbosch, Deskab Projects brings together skilled artisans across 10 trades â€” delivering quality renovation and construction work throughout Centurion and Gauteng.
           </p>
           <div className="mt-5 flex flex-wrap items-center gap-4 text-white/50 text-sm">
             <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-[#E8A04E]" /> Olievenhoutbosch, Centurion, 0187, South Africa</div>
-            <span>·</span>
+            <span>Â·</span>
             <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-[#E8A04E]" />
-              <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">info@deskabprojects.co.za</a>
+              <a href="mailto:swdandflooringsa@gmail.com" className="hover:text-white transition-colors">swdandflooringsa@gmail.com</a>
             </div>
           </div>
         </div>
@@ -38,16 +38,16 @@ export default function AboutPage({ setCurrentPage }) {
               />
             </div>
             <div>
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— Deskab Projects</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” Deskab Projects</div>
               <h2 className="font-display text-3xl md:text-4xl font-semibold mb-5 text-[#1F1611]">Built on trust, craftsmanship, and community.</h2>
               <p className="text-[#7A6B5E] leading-relaxed mb-4">
-                Deskab Projects was founded with a simple mission: give homeowners and businesses in Centurion access to skilled, honest, and reliable building and renovation services — all under one company.
+                Deskab Projects was founded with a simple mission: give homeowners and businesses in Centurion access to skilled, honest, and reliable building and renovation services â€” all under one company.
               </p>
               <p className="text-[#7A6B5E] leading-relaxed mb-4">
-                Too many clients had been burned by fly-by-night contractors who disappear mid-project, overcharge, or deliver substandard work. We set out to be different — clear quotes, fixed pricing, on-time delivery, and guaranteed workmanship.
+                Too many clients had been burned by fly-by-night contractors who disappear mid-project, overcharge, or deliver substandard work. We set out to be different â€” clear quotes, fixed pricing, on-time delivery, and guaranteed workmanship.
               </p>
               <p className="text-[#7A6B5E] leading-relaxed mb-6">
-                From our base in Olievenhoutbosch, we've grown our team to cover all 10 major renovation trades — meaning you get one accountable company managing every aspect of your project from start to finish.
+                From our base in Olievenhoutbosch, we've grown our team to cover all 10 major renovation trades â€” meaning you get one accountable company managing every aspect of your project from start to finish.
               </p>
 
               {/* Official Registration & Tax Box */}
@@ -61,7 +61,7 @@ export default function AboutPage({ setCurrentPage }) {
                   <div><strong className="text-[#7A6B5E] font-medium">Tax Ref:</strong> 9765578191</div>
                 </div>
                 <div className="text-xs text-[#7A6B5E] pt-1">
-                  Email: <a href="mailto:info@deskabprojects.co.za" className="text-[#B8651B] font-semibold hover:underline">info@deskabprojects.co.za</a>
+                  Email: <a href="mailto:swdandflooringsa@gmail.com" className="text-[#B8651B] font-semibold hover:underline">swdandflooringsa@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function AboutPage({ setCurrentPage }) {
           {/* Services We Do */}
           <div className="mt-20">
             <div className="text-center mb-14">
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— Our Services</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” Our Services</div>
               <h2 className="font-display text-3xl md:text-4xl font-semibold text-[#1F1611]">10 trades, one team, one promise.</h2>
             </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-4">
@@ -91,13 +91,13 @@ export default function AboutPage({ setCurrentPage }) {
           {/* Company Timeline */}
           <div className="mt-24">
             <div className="text-center mb-16">
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— Our Journey</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” Our Journey</div>
               <h2 className="font-display text-3xl md:text-4xl font-semibold text-[#1F1611]">How we got here</h2>
             </div>
             <div className="relative pl-8 space-y-12 border-l-2 border-[#E8DDD0] ml-4 md:ml-0">
               {[
                 { year: '2017', title: 'First Project', desc: 'Started with a small painting and tiling team serving clients in Olievenhoutbosch and the greater Centurion area.' },
-                { year: '2019', title: 'Expanded to 5 Trades', desc: 'Added carpentry, drywalling, and electrical to our service offering — now handling full renovation contracts.' },
+                { year: '2019', title: 'Expanded to 5 Trades', desc: 'Added carpentry, drywalling, and electrical to our service offering â€” now handling full renovation contracts.' },
                 { year: '2021', title: 'Solar Division Launched', desc: 'Established our solar installation team as load shedding began affecting every household in Gauteng.' },
                 { year: '2023', title: 'Full 10-Trade Capability', desc: 'Achieved full 10-trade capability covering every major renovation and construction discipline under one brand.' },
                 { year: '2025', title: '350+ Projects Completed', desc: 'Serving 350+ happy clients across Centurion, Pretoria, and Midrand with a 4.9/5 satisfaction rating.' }
@@ -118,7 +118,7 @@ export default function AboutPage({ setCurrentPage }) {
       <section className="py-24 bg-[#F2E8DA] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16 max-w-2xl mx-auto">
-            <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— What We Believe</div>
+            <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” What We Believe</div>
             <h2 className="font-display font-light text-4xl md:text-5xl leading-[1.05] tracking-tight text-[#1F1611]">
               Three principles, non-negotiable.
             </h2>
@@ -128,14 +128,14 @@ export default function AboutPage({ setCurrentPage }) {
               <Award className="w-10 h-10 text-[#B8651B] mb-5" />
               <h3 className="font-display text-2xl font-semibold mb-3 text-[#1F1611]">Quality Over Speed</h3>
               <p className="text-[#7A6B5E] leading-relaxed text-sm">
-                We will never rush a job to move on to the next one. Every surface prepared correctly, every fixture installed true. If it's not right, we fix it — no charge.
+                We will never rush a job to move on to the next one. Every surface prepared correctly, every fixture installed true. If it's not right, we fix it â€” no charge.
               </p>
             </div>
             <div className="card p-8">
               <Heart className="w-10 h-10 text-[#B8651B] mb-5" />
               <h3 className="font-display text-2xl font-semibold mb-3 text-[#1F1611]">Honest Pricing</h3>
               <p className="text-[#7A6B5E] leading-relaxed text-sm">
-                You get a detailed written quote before we start. No hidden extras, no surprises on invoice day. What we quote is what you pay — unless you change the scope.
+                You get a detailed written quote before we start. No hidden extras, no surprises on invoice day. What we quote is what you pay â€” unless you change the scope.
               </p>
             </div>
             <div className="card p-8">

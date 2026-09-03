@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { ArrowRight, Instagram, Facebook, Mail, MapPin, Phone, Linkedin, Music, Globe } from 'lucide-react';
 import { services } from '../data/servicesData';
 
@@ -9,7 +9,7 @@ export default function Footer({ setCurrentPage, showToast }) {
     e.preventDefault();
     if (email) {
       setEmail('');
-      showToast('Subscribed — we\'ll keep you updated on renovation tips and special offers.');
+      showToast('Subscribed â€” we\'ll keep you updated on renovation tips and special offers.');
     }
   };
 
@@ -34,7 +34,7 @@ export default function Footer({ setCurrentPage, showToast }) {
               </div>
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-5 max-w-sm">
-              Painting, tiling, wooden floors, ceilings, drywalling, carpentry, plumbing, electrical, building, and solar installation — all under one trusted name in Centurion.
+              Painting, tiling, wooden floors, ceilings, drywalling, carpentry, plumbing, electrical, building, and solar installation â€” all under one trusted name in Centurion.
             </p>
             <div className="space-y-2 text-sm text-white/60 mb-6">
               <div className="flex items-start gap-2">
@@ -45,8 +45,8 @@ export default function Footer({ setCurrentPage, showToast }) {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#E8A04E] flex-shrink-0" />
-                <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">
-                  info@deskabprojects.co.za
+                <a href="mailto:swdandflooringsa@gmail.com" className="hover:text-white transition-colors">
+                  swdandflooringsa@gmail.com
                 </a>
               </div>
               <div className="text-xs text-white/50 space-y-1 mt-3 pt-3 border-t border-white/10">
@@ -123,7 +123,7 @@ export default function Footer({ setCurrentPage, showToast }) {
               </button>
             </form>
             <div className="mt-6 pt-6 border-t border-white/10 text-xs text-white/40 space-y-1">
-              <div>info@deskabprojects.co.za</div>
+              <div>swdandflooringsa@gmail.com</div>
               <div>Olievenhoutbosch, Centurion, 0187</div>
               <div>Gauteng, South Africa</div>
             </div>
@@ -131,7 +131,7 @@ export default function Footer({ setCurrentPage, showToast }) {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-xs text-white/40">© 2025 Deskab Projects. All rights reserved. Reg: 2025/575475/07 | Tax: 9765578191</div>
+          <div className="text-xs text-white/40">Â© 2025 Deskab Projects. All rights reserved. Reg: 2025/575475/07 | Tax: 9765578191</div>
           <div className="text-xs text-white/40 font-display italic">"Quality craftsmanship, honest pricing, on-time delivery."</div>
         </div>
       </div>

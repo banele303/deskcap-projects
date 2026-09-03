@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import {
   ArrowRight, ShieldCheck, Award, Star, CheckCircle2, ChevronDown,
   MapPin, Mail, Zap, Layers, Hammer, Droplets, Building2, Sun,
@@ -10,8 +10,8 @@ import { blogPosts } from '../data/blogData';
 import { testimonials } from '../data/testimonialsData';
 
 const SERVICE_ICONS = {
-  Brush: () => <span className="text-lg">🖌️</span>,
-  Grid3x3: () => <span className="text-lg">▦</span>,
+  Brush: () => <span className="text-lg">ðŸ–Œï¸</span>,
+  Grid3x3: () => <span className="text-lg">â–¦</span>,
   Layers: () => <Layers className="w-5 h-5" />,
   Square: () => <Square className="w-5 h-5" />,
   PanelLeft: () => <PanelLeft className="w-5 h-5" />,
@@ -52,7 +52,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
     setTimeout(() => {
       setSubmitting(false);
       setQuoteForm({ name: '', phone: '', email: '', service: '' });
-      showToast('Quote request sent — we\'ll be in touch within 48 hours!');
+      showToast('Quote request sent â€” we\'ll be in touch within 48 hours!');
     }, 1200);
   };
 
@@ -62,11 +62,11 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
   return (
     <div className="min-h-screen">
 
-      {/* ─── HERO ─── */}
+      {/* â”€â”€â”€ HERO â”€â”€â”€ */}
       <section className="relative min-h-screen hero-bg-container overflow-hidden grain-overlay flex items-center pt-28 pb-20">
         <img
           src="/images/interior-renovations.jpg"
-          alt="Deskab Projects — Centurion Renovations"
+          alt="Deskab Projects â€” Centurion Renovations"
           className="hero-bg-image"
         />
         <div className="hero-bg-overlay"></div>
@@ -88,7 +88,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
             <div className="lg:col-span-7 text-white">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md mb-7">
                 <span className="w-2 h-2 rounded-full bg-[#6B8E5A] animate-pulse"></span>
-                <span className="text-xs font-medium tracking-wide">Now booking projects — Centurion & Pretoria</span>
+                <span className="text-xs font-medium tracking-wide">Now booking projects â€” Centurion & Pretoria</span>
               </div>
 
               <h1 className="font-display font-light text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] leading-[1.02] tracking-tight hero-text-shadow">
@@ -97,7 +97,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
               </h1>
 
               <p className="mt-7 text-lg md:text-xl text-white/90 max-w-xl leading-relaxed hero-text-shadow">
-                Painting · Tiling · Wooden Floors · Ceilings · Drywalling · Carpentry · Plumbing · Electrical · Building · Solar Installation — all from one trusted Centurion team.
+                Painting Â· Tiling Â· Wooden Floors Â· Ceilings Â· Drywalling Â· Carpentry Â· Plumbing Â· Electrical Â· Building Â· Solar Installation â€” all from one trusted Centurion team.
               </p>
 
               <div className="mt-4 flex items-center gap-2 text-white/70 text-sm">
@@ -171,7 +171,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
                     <select required value={quoteForm.service}
                       onChange={(e) => setQuoteForm({ ...quoteForm, service: e.target.value })}
                       className="hero-form-input">
-                      <option value="">Select a service…</option>
+                      <option value="">Select a serviceâ€¦</option>
                       {services.map(s => (
                         <option key={s.id} value={s.id}>{s.title}</option>
                       ))}
@@ -181,7 +181,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
                   <button type="submit" disabled={submitting}
                     className="w-full mt-2 bg-gradient-to-r from-[#E8A04E] to-[#B8651B] hover:from-[#B8651B] hover:to-[#8B4A14] text-white font-semibold py-3.5 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 text-sm shadow-lg shadow-[#B8651B]/30 hover:shadow-xl hover:shadow-[#B8651B]/40 hover:-translate-y-0.5 border-none cursor-pointer">
                     {submitting ? (
-                      <><span className="spinner"></span><span>Sending…</span></>
+                      <><span className="spinner"></span><span>Sendingâ€¦</span></>
                     ) : (
                       <><span>Get My Free Quote</span><ArrowRight className="w-4 h-4" /></>
                     )}
@@ -189,7 +189,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
 
                   <div className="flex items-center gap-2 pt-1">
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#6B8E5A] flex-shrink-0" />
-                    <span className="text-[11px] text-white/50">No obligation · Free site visit · Fixed pricing</span>
+                    <span className="text-[11px] text-white/50">No obligation Â· Free site visit Â· Fixed pricing</span>
                   </div>
                 </form>
               </div>
@@ -213,7 +213,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── MARQUEE ─── */}
+      {/* â”€â”€â”€ MARQUEE â”€â”€â”€ */}
       <section className="bg-[#1F1611] py-5 overflow-hidden border-y border-[#3D2F25]">
         <div className="marquee-track">
           {[...Array(2)].map((_, di) => (
@@ -221,7 +221,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
               {['Painting', 'Tiling', 'Wooden Floors', 'Ceilings', 'Drywalling', 'Carpentry', 'Plumbing', 'Electrical', 'Building', 'Solar'].map((t, i) => (
                 <React.Fragment key={i}>
                   <span>{t}</span>
-                  <span className="text-[#E8A04E]">✦</span>
+                  <span className="text-[#E8A04E]">âœ¦</span>
                 </React.Fragment>
               ))}
             </div>
@@ -229,19 +229,19 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── ALL 10 SERVICES GRID ─── */}
+      {/* â”€â”€â”€ ALL 10 SERVICES GRID â”€â”€â”€ */}
       <section className="py-24 lg:py-32 relative">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 mb-16">
             <div className="lg:col-span-5">
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— What We Do</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” What We Do</div>
               <h2 className="font-display font-light text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight text-[#1F1611]">
                 10 services. <em className="italic font-medium gradient-text">One team.</em>
               </h2>
             </div>
             <div className="lg:col-span-6 lg:col-start-7 flex items-end">
               <p className="text-lg text-[#7A6B5E] leading-relaxed">
-                Every trade you need for a renovation, new build, or solar installation — coordinated under one roof so you only deal with one team and one bill.
+                Every trade you need for a renovation, new build, or solar installation â€” coordinated under one roof so you only deal with one team and one bill.
               </p>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                   <h3 className="font-display text-xl font-semibold mb-2 text-[#1F1611] group-hover:text-[#B8651B] transition-colors">{s.title}</h3>
-                  <p className="text-sm text-[#7A6B5E] leading-relaxed flex-grow">{s.shortDesc.slice(0, 90)}…</p>
+                  <p className="text-sm text-[#7A6B5E] leading-relaxed flex-grow">{s.shortDesc.slice(0, 90)}â€¦</p>
                   <div className="mt-5 flex items-center gap-2 text-sm font-semibold text-[#B8651B] group-hover:gap-3 transition-all">
                     <span>View service</span>
                     <ArrowRight className="w-4 h-4" />
@@ -289,7 +289,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="text-[10px] font-semibold tracking-[0.15em] uppercase text-[#B8651B] mb-2">0{idx + 9}</div>
                   <h3 className="font-display text-xl font-semibold mb-2 text-[#1F1611] group-hover:text-[#B8651B] transition-colors">{s.title}</h3>
-                  <p className="text-sm text-[#7A6B5E] leading-relaxed flex-grow">{s.shortDesc.slice(0, 100)}…</p>
+                  <p className="text-sm text-[#7A6B5E] leading-relaxed flex-grow">{s.shortDesc.slice(0, 100)}â€¦</p>
                   <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-[#B8651B] group-hover:gap-3 transition-all">
                     <span>View service</span>
                     <ArrowRight className="w-4 h-4" />
@@ -308,7 +308,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── ABOUT PREVIEW ─── */}
+      {/* â”€â”€â”€ ABOUT PREVIEW â”€â”€â”€ */}
       <section className="py-24 lg:py-32 bg-[#1F1611] text-white relative overflow-hidden grain-overlay">
         <div className="glow-orb w-96 h-96 bg-[#B8651B] -top-40 -left-40 opacity-30"></div>
         <div className="glow-orb w-72 h-72 bg-[#E8A04E] -bottom-32 right-10 opacity-20"></div>
@@ -321,22 +321,22 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
               </div>
               <div className="absolute -bottom-8 -right-4 lg:-right-8 max-w-xs bg-[#FAF6F0] text-[#1F1611] p-6 rounded-xl shadow-2xl border border-[#E8DDD0]">
                 <p className="font-display italic text-sm leading-relaxed">
-                  "Quality craftsmanship, honest pricing, and on-time delivery — every single time."
+                  "Quality craftsmanship, honest pricing, and on-time delivery â€” every single time."
                 </p>
-                <div className="mt-3 text-xs font-semibold tracking-wide text-[#B8651B]">— Deskab Projects Team</div>
+                <div className="mt-3 text-xs font-semibold tracking-wide text-[#B8651B]">â€” Deskab Projects Team</div>
               </div>
             </div>
 
             <div className="lg:pl-6 pt-8 lg:pt-0">
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-5">— Who We Are</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-5">â€” Who We Are</div>
               <h2 className="font-display font-light text-4xl md:text-5xl leading-tight mb-6">
                 Your trusted partner in <em className="italic font-medium text-[#E8A04E]">Centurion</em> for every trade.
               </h2>
               <p className="text-white/70 leading-relaxed mb-5">
-                Based in Olievenhoutbosch, Centurion, Deskab Projects has been transforming homes and businesses across Gauteng. We bring together 10 specialist trades — so you get seamless, accountable project delivery without the stress of managing multiple contractors.
+                Based in Olievenhoutbosch, Centurion, Deskab Projects has been transforming homes and businesses across Gauteng. We bring together 10 specialist trades â€” so you get seamless, accountable project delivery without the stress of managing multiple contractors.
               </p>
               <p className="text-white/70 leading-relaxed mb-8">
-                From a single bathroom renovation to a complete home rebuild with solar installation — we manage everything, deliver on time, and stand behind our work.
+                From a single bathroom renovation to a complete home rebuild with solar installation â€” we manage everything, deliver on time, and stand behind our work.
               </p>
 
               <div className="grid grid-cols-3 gap-6 mb-10 py-6 border-t border-white/10">
@@ -367,12 +367,12 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── FEATURED PROJECTS ─── */}
+      {/* â”€â”€â”€ FEATURED PROJECTS â”€â”€â”€ */}
       <section className="py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— Portfolio</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” Portfolio</div>
               <h2 className="font-display font-light text-4xl md:text-5xl leading-tight text-[#1F1611]">
                 Recent work across <em className="italic font-medium gradient-text">Centurion</em>.
               </h2>
@@ -412,7 +412,7 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── TESTIMONIALS ─── */}
+      {/* â”€â”€â”€ TESTIMONIALS â”€â”€â”€ */}
       <section className="py-24 bg-[#F2E8DA] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -451,12 +451,12 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── BLOG PREVIEW ─── */}
+      {/* â”€â”€â”€ BLOG PREVIEW â”€â”€â”€ */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">— Renovation Journal</div>
+              <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#B8651B] mb-4">â€” Renovation Journal</div>
               <h2 className="font-display font-light text-4xl md:text-5xl leading-tight text-[#1F1611]">
                 Tips, guides, and <em className="italic font-medium gradient-text">project stories</em>.
               </h2>
@@ -510,12 +510,12 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
         </div>
       </section>
 
-      {/* ─── CONTACT CTA BANNER ─── */}
+      {/* â”€â”€â”€ CONTACT CTA BANNER â”€â”€â”€ */}
       <section className="py-24 bg-[#1F1611] text-white relative overflow-hidden grain-overlay">
         <div className="glow-orb w-80 h-80 bg-[#B8651B] -top-20 -right-20 opacity-25"></div>
         <div className="glow-orb w-64 h-64 bg-[#E8A04E] bottom-0 left-10 opacity-20"></div>
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-5">— Ready to Transform Your Space?</div>
+          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-5">â€” Ready to Transform Your Space?</div>
           <h2 className="font-display font-light text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
             Let's start your <em className="italic font-medium text-[#E8A04E]">project</em> today.
           </h2>
@@ -524,8 +524,8 @@ export default function HomePage({ setCurrentPage, onSelectProject, showToast })
           </p>
           <div className="flex items-center justify-center gap-2 text-white/50 text-sm mb-10">
             <Mail className="w-4 h-4 text-[#E8A04E]" />
-            <a href="mailto:info@deskabprojects.co.za" className="hover:text-white transition-colors">
-              info@deskabprojects.co.za
+            <a href="mailto:swdandflooringsa@gmail.com" className="hover:text-white transition-colors">
+              swdandflooringsa@gmail.com
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-4">

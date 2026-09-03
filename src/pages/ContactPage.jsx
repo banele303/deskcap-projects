@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Phone, Mail, MapPin, ArrowRight, ShieldAlert, MessageSquare, FileText } from 'lucide-react';
 
 export default function ContactPage({ showToast }) {
@@ -13,7 +13,7 @@ export default function ContactPage({ showToast }) {
     setTimeout(() => {
       setSubmitting(false);
       setFormData({ name: '', phone: '', email: '', service: '', area: '', message: '', consent: false });
-      showToast('Enquiry sent — we\'ll be in touch within 48 hours.');
+      showToast('Enquiry sent â€” we\'ll be in touch within 48 hours.');
     }, 1500);
   };
 
@@ -24,7 +24,7 @@ export default function ContactPage({ showToast }) {
       <section className="pt-24 pb-20 bg-[#1F1611] text-white relative overflow-hidden grain-overlay">
         <div className="glow-orb w-96 h-96 bg-[#B8651B] -top-40 right-0 opacity-30"></div>
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-4">— Get In Touch</div>
+          <div className="text-xs font-semibold tracking-[0.2em] uppercase text-[#E8A04E] mb-4">â€” Get In Touch</div>
           <h1 className="font-display font-light text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight max-w-3xl">
             Let's start your <em className="italic font-medium text-[#E8A04E]">project</em>.
           </h1>
@@ -75,7 +75,7 @@ export default function ContactPage({ showToast }) {
                     <select required value={formData.service}
                       onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                       className="form-input">
-                      <option value="">Select a service…</option>
+                      <option value="">Select a serviceâ€¦</option>
                       <option>Painting</option>
                       <option>Tiling</option>
                       <option>Wooden Floors</option>
@@ -94,7 +94,7 @@ export default function ContactPage({ showToast }) {
                     <label className="block text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-2">Area / Suburb</label>
                     <input type="text" value={formData.area}
                       onChange={(e) => setFormData({ ...formData, area: e.target.value })}
-                      className="form-input" placeholder="Olievenhoutbosch, Centurion…" />
+                      className="form-input" placeholder="Olievenhoutbosch, Centurionâ€¦" />
                   </div>
                 </div>
 
@@ -103,7 +103,7 @@ export default function ContactPage({ showToast }) {
                   <textarea rows={5} value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="form-input"
-                    placeholder="Describe your project — size, current state, what you'd like done, preferred timeline…" />
+                    placeholder="Describe your project â€” size, current state, what you'd like done, preferred timelineâ€¦" />
                 </div>
 
                 <div className="flex items-start gap-3">
@@ -117,7 +117,7 @@ export default function ContactPage({ showToast }) {
 
                 <button type="submit" disabled={submitting} className="btn-primary w-full justify-center">
                   {submitting ? (
-                    <><span className="spinner"></span><span>Sending…</span></>
+                    <><span className="spinner"></span><span>Sendingâ€¦</span></>
                   ) : (
                     <><span>Send My Enquiry</span><ArrowRight className="w-4 h-4" /></>
                   )}
@@ -134,8 +134,8 @@ export default function ContactPage({ showToast }) {
                   </div>
                   <div>
                     <div className="text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-1">Email Us</div>
-                    <a href="mailto:info@deskabprojects.co.za" className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors break-all text-sm">
-                      info@deskabprojects.co.za
+                    <a href="mailto:swdandflooringsa@gmail.com" className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors break-all text-sm">
+                      swdandflooringsa@gmail.com
                     </a>
                     <div className="text-xs text-[#7A6B5E] mt-1">We reply within 48 hours</div>
                   </div>
@@ -179,14 +179,14 @@ export default function ContactPage({ showToast }) {
                   <div>
                     <div className="text-xs font-semibold tracking-wide uppercase text-[#7A6B5E] mb-1">WhatsApp</div>
                     <a
-                      href="https://wa.me/27747404229?text=Hi%20Deskab%20Projects%2C%20I%27d%20like%20a%20quote%20for..."
+                      href="https://wa.me/27639148319?text=Hi%20Deskab%20Projects%2C%20I%27d%20like%20a%20quote%20for..."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[#1F1611] font-semibold hover:text-[#B8651B] transition-colors"
                     >
                       Chat on WhatsApp
                     </a>
-                    <div className="text-xs text-[#7A6B5E] mt-1">Quick response · Mon–Sat 7:00–18:00</div>
+                    <div className="text-xs text-[#7A6B5E] mt-1">Quick response Â· Monâ€“Sat 7:00â€“18:00</div>
                   </div>
                 </div>
               </div>
@@ -198,10 +198,10 @@ export default function ContactPage({ showToast }) {
                 </div>
                 <div className="font-display text-xl font-semibold mb-2">Burst Pipe? Electrical Fault?</div>
                 <p className="text-sm text-white/70 mb-4">
-                  For plumbing emergencies (burst pipes, blocked drains) or electrical faults — contact us for urgent response across Centurion and Pretoria.
+                  For plumbing emergencies (burst pipes, blocked drains) or electrical faults â€” contact us for urgent response across Centurion and Pretoria.
                 </p>
-                <a href="mailto:info@deskabprojects.co.za" className="text-[#E8A04E] font-semibold text-sm flex items-center gap-2 hover:gap-3 transition-all">
-                  info@deskabprojects.co.za
+                <a href="mailto:swdandflooringsa@gmail.com" className="text-[#E8A04E] font-semibold text-sm flex items-center gap-2 hover:gap-3 transition-all">
+                  swdandflooringsa@gmail.com
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
